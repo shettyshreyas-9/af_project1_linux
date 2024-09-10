@@ -1,0 +1,330 @@
+[2024-09-10T16:54:28.192+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T16:54:28.219+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline2 manual__2024-09-10T11:23:22.649352+00:00 [queued]>
+[2024-09-10T16:54:28.236+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline2 manual__2024-09-10T11:23:22.649352+00:00 [queued]>
+[2024-09-10T16:54:28.236+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-10T16:54:28.415+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_beam_pipeline2> on 2024-09-10 11:23:22.649352+00:00
+[2024-09-10T16:54:28.420+0530] {standard_task_runner.py:72} INFO - Started process 207600 to run task
+[2024-09-10T16:54:28.427+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'apache_beam_etl_pipeline', 'run_beam_pipeline2', 'manual__2024-09-10T11:23:22.649352+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/aaz.py', '--cfg-path', '/tmp/tmprt9citeh']
+[2024-09-10T16:54:28.429+0530] {standard_task_runner.py:105} INFO - Job 91: Subtask run_beam_pipeline2
+[2024-09-10T16:54:28.596+0530] {task_command.py:467} INFO - Running <TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline2 manual__2024-09-10T11:23:22.649352+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T16:54:29.060+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow_SS' AIRFLOW_CTX_DAG_ID='apache_beam_etl_pipeline' AIRFLOW_CTX_TASK_ID='run_beam_pipeline2' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T11:23:22.649352+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T11:23:22.649352+00:00'
+[2024-09-10T16:54:29.061+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T16:54:29.061+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T16:54:29.062+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline2 state:running start_date:2024-09-10 11:24:28.219822+00:00
+[2024-09-10T16:54:29.062+0530] {logging_mixin.py:190} INFO - Dag name:apache_beam_etl_pipeline and current dag run status:running
+[2024-09-10T16:54:29.062+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T16:54:29.063+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-10T16:54:29.064+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 ~/airflow_projects/project1/beam_scripts/etl_pipe_1.py']
+[2024-09-10T16:54:29.133+0530] {subprocess.py:86} INFO - Output:
+[2024-09-10T16:54:35.982+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T16:54:39.943+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T16:54:44.848+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T16:54:44.849+0530] {subprocess.py:93} INFO - WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T16:54:44.849+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 1.8181490239911615 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2024-09-10T16:54:44.849+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+[2024-09-10T16:54:44.850+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:54:49.674+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T16:54:53.756+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T16:54:58.940+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T16:54:58.940+0530] {subprocess.py:93} INFO - WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 2.316893517268756 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(
+[2024-09-10T16:54:58.941+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+[2024-09-10T16:54:58.942+0530] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+[2024-09-10T16:54:58.942+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:55:04.265+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T16:55:08.190+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T16:55:13.205+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T16:55:13.205+0530] {subprocess.py:93} INFO - WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 6.76969361822934 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+[2024-09-10T16:55:13.206+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:55:22.987+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T16:55:26.939+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO - WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 15.34321078276102 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:55:31.987+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+[2024-09-10T16:55:31.988+0530] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(
+[2024-09-10T16:55:31.988+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+[2024-09-10T16:55:31.988+0530] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+[2024-09-10T16:55:31.988+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:55:50.352+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T16:55:54.316+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T16:55:59.262+0530] {subprocess.py:93} INFO - WARNING:google.auth.compute_engine._metadata:Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T16:55:59.263+0530] {subprocess.py:93} INFO - WARNING:google.auth._default:Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T16:55:59.263+0530] {subprocess.py:93} INFO - WARNING:apache_beam.internal.gcp.auth:Unable to find default credentials to use: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2024-09-10T16:55:59.263+0530] {subprocess.py:93} INFO - Connecting anonymously. This is expected if no credentials are needed to access GCP resources.
+[2024-09-10T16:55:59.835+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 2.8300502007269204 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:55:59.835+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:55:59.835+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:55:59.836+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:55:59.837+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:55:59.838+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:55:59.839+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:55:59.840+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:55:59.841+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:55:59.841+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:55:59.841+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:55:59.841+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:55:59.841+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:56:03.052+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 6.334668413844503 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:56:03.053+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:56:03.053+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:56:03.053+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:56:03.054+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:56:03.055+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:56:03.056+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:56:03.057+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:56:03.057+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:56:09.773+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 15.977204861249735 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:56:09.774+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:56:09.775+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:56:09.776+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:56:09.776+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 30.384913335668386 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:56:26.154+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:56:26.155+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:56:26.156+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:56:26.157+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:56:56.955+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 63.82481759228865 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:56:56.956+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:56:56.956+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:56:56.956+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:56:56.957+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:56:56.958+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:56:56.959+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:56:56.960+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:56:56.960+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:56:56.960+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:56:56.960+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:58:01.233+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 117.17745202910619 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:58:01.234+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:58:01.235+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:58:01.236+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:58:01.237+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:58:01.237+0530] {subprocess.py:93} INFO - 
+[2024-09-10T16:59:58.827+0530] {subprocess.py:93} INFO - WARNING:apache_beam.utils.retry:Retry with exponential backoff: waiting for 281.1774220656181 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+[2024-09-10T16:59:58.827+0530] {subprocess.py:93} INFO -  Traceback for above exception (most recent call last):
+[2024-09-10T16:59:58.828+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+[2024-09-10T16:59:58.828+0530] {subprocess.py:93} INFO -     return fun(*args, **kwargs)
+[2024-09-10T16:59:58.828+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+[2024-09-10T16:59:58.828+0530] {subprocess.py:93} INFO -     blob = bucket.get_blob(blob_name)
+[2024-09-10T16:59:58.828+0530] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -     return func(*args, **kwds)
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -     blob.reload(
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -     api_response = client._get_resource(
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+[2024-09-10T16:59:58.829+0530] {subprocess.py:93} INFO -     return self._connection.api_request(
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -     return call()
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -     return retry_target(
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -     _retry_error_helper(
+[2024-09-10T16:59:58.830+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -     raise final_exc from source_exc
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -     result = target()
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[2024-09-10T16:59:58.831+0530] {subprocess.py:93} INFO -     return self._do_request(
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -     return self.http.request(
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -     self.credentials.refresh(auth_request)
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO -     raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+[2024-09-10T16:59:58.832+0530] {subprocess.py:93} INFO - 
+[2024-09-10T17:02:07.606+0530] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-09-10T17:02:07.682+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-10T17:02:07.702+0530] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 207600. PIDs of all processes in the group: [207602, 207600]
+[2024-09-10T17:02:07.706+0530] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 207600
+[2024-09-10T17:02:07.712+0530] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-10T17:02:07.724+0530] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-09-10T17:02:07.975+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T17:02:08.042+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=207602, status='terminated', started='16:54:28') (207602) terminated with exit code None
+[2024-09-10T17:02:08.043+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=207600, status='terminated', exitcode=0, started='16:54:27') (207600) terminated with exit code 0

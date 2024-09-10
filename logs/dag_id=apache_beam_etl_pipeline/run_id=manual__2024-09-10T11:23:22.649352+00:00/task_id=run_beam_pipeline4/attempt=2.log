@@ -1,0 +1,84 @@
+[2024-09-10T17:02:10.736+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T17:02:10.754+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:23:22.649352+00:00 [queued]>
+[2024-09-10T17:02:10.770+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:23:22.649352+00:00 [queued]>
+[2024-09-10T17:02:10.771+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-10T17:02:10.808+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_beam_pipeline4> on 2024-09-10 11:23:22.649352+00:00
+[2024-09-10T17:02:10.813+0530] {standard_task_runner.py:72} INFO - Started process 208586 to run task
+[2024-09-10T17:02:10.820+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'apache_beam_etl_pipeline', 'run_beam_pipeline4', 'manual__2024-09-10T11:23:22.649352+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/aaz.py', '--cfg-path', '/tmp/tmpgfxoqgxv']
+[2024-09-10T17:02:10.821+0530] {standard_task_runner.py:105} INFO - Job 93: Subtask run_beam_pipeline4
+[2024-09-10T17:02:10.959+0530] {task_command.py:467} INFO - Running <TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:23:22.649352+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T17:02:11.264+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow_SS' AIRFLOW_CTX_DAG_ID='apache_beam_etl_pipeline' AIRFLOW_CTX_TASK_ID='run_beam_pipeline4' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T11:23:22.649352+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T11:23:22.649352+00:00'
+[2024-09-10T17:02:11.265+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T17:02:11.266+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T17:02:11.266+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline4 state:running start_date:2024-09-10 11:32:10.754821+00:00
+[2024-09-10T17:02:11.266+0530] {logging_mixin.py:190} INFO - Dag name:apache_beam_etl_pipeline and current dag run status:running
+[2024-09-10T17:02:11.266+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T17:02:11.267+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-10T17:02:11.269+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/sst7260/airflow_projects/project1/beam_scripts/etl_pipe_1.py']
+[2024-09-10T17:02:11.280+0530] {subprocess.py:86} INFO - Output:
+[2024-09-10T17:02:14.965+0530] {subprocess.py:93} INFO - [2024-09-10T17:02:14.963+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:02:15.623+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-09-10T17:02:15.623+0530] {subprocess.py:93} INFO -   File "/home/sst7260/airflow_projects/project1/beam_scripts/etl_pipe_1.py", line 56, in <module>
+[2024-09-10T17:02:15.624+0530] {subprocess.py:93} INFO -     transform_load()
+[2024-09-10T17:02:15.624+0530] {subprocess.py:93} INFO - NameError: name 'transform_load' is not defined
+[2024-09-10T17:02:16.157+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-09-10T17:02:16.167+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-09-10T17:02:16.172+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-09-10T17:02:16.173+0530] {logging_mixin.py:190} INFO - Task start:2024-09-10 11:32:10.754821+00:00 end:2024-09-10 11:32:16.170041+00:00 duration:5.41522
+[2024-09-10T17:02:16.174+0530] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): run_beam_pipeline4> dag:<DAG: apache_beam_etl_pipeline> dagrun:<DagRun apache_beam_etl_pipeline @ 2024-09-10 11:23:22.649352+00:00: manual__2024-09-10T11:23:22.649352+00:00, state:running, queued_at: 2024-09-10 11:23:22.708522+00:00. externally triggered: True>
+[2024-09-10T17:02:16.174+0530] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 1.
+[2024-09-10T17:02:16.174+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=apache_beam_etl_pipeline, task_id=run_beam_pipeline4, run_id=manual__2024-09-10T11:23:22.649352+00:00, execution_date=20240910T112322, start_date=20240910T113210, end_date=20240910T113216
+[2024-09-10T17:02:16.198+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T17:02:16.199+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 93 for task run_beam_pipeline4 (Bash command failed. The command returned a non-zero exit code 1.; 208586)
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-09-10T17:02:16.233+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-09-10T17:02:16.245+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-10T17:02:16.246+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-10T17:02:17.072+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T17:02:17.081+0530] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:23:22.649352+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2024-09-10T17:02:17.088+0530] {local_task_job_runner.py:166} INFO - Task is not able to be run

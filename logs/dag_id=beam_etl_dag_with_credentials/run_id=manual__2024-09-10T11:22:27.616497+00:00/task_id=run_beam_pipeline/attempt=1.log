@@ -1,0 +1,39 @@
+[2024-09-10T16:52:36.124+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T16:52:36.141+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:22:27.616497+00:00 [queued]>
+[2024-09-10T16:52:36.190+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:22:27.616497+00:00 [queued]>
+[2024-09-10T16:52:36.190+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-09-10T16:52:36.255+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 11:22:27.616497+00:00
+[2024-09-10T16:52:36.263+0530] {standard_task_runner.py:72} INFO - Started process 206775 to run task
+[2024-09-10T16:52:36.270+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T11:22:27.616497+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmp8rvc41gu']
+[2024-09-10T16:52:36.271+0530] {standard_task_runner.py:105} INFO - Job 89: Subtask run_beam_pipeline
+[2024-09-10T16:52:36.376+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:22:27.616497+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T16:52:36.489+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='beam_etl_dag_with_credentials' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T11:22:27.616497+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T11:22:27.616497+00:00'
+[2024-09-10T16:52:36.490+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T16:52:36.490+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T16:52:36.491+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 11:22:36.142121+00:00
+[2024-09-10T16:52:36.491+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag_with_credentials and current dag run status:running
+[2024-09-10T16:52:36.491+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T16:52:36.494+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T16:52:39.064+0530] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-09-10T16:54:09.667+0530] {bigquery_file_loads.py:703} INFO - Load job has 1 files. Job name is beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0.
+[2024-09-10T16:54:09.667+0530] {bigquery_file_loads.py:739} INFO - Triggering job beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0 to load data to BigQuery table <TableReference
+ datasetId: 'sandbox_ss_eu'
+ projectId: 'aceinternal-2ed449d3'
+ tableId: 'processed_dfj'>.Schema: {'fields': [{'name': 'item_code', 'type': 'STRING', 'mode': 'REQUIRED'}, {'name': 'total_amount', 'type': 'FLOAT', 'mode': 'REQUIRED'}]}. Additional parameters: {}. Source format: NEWLINE_DELIMITED_JSON
+[2024-09-10T16:54:10.808+0530] {bigquery_tools.py:579} INFO - Started BigQuery job: <JobReference
+ jobId: 'beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0'
+ location: 'EU'
+ projectId: 'aceinternal-2ed449d3'>
+ bq show -j --format=prettyjson --project_id=aceinternal-2ed449d3 beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0
+[2024-09-10T16:54:11.259+0530] {bigquery_tools.py:652} INFO - Job aceinternal-2ed449d3:EU.beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0 status: RUNNING
+[2024-09-10T16:54:21.676+0530] {bigquery_tools.py:652} INFO - Job aceinternal-2ed449d3:EU.beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_7c02df36ea364457a545285f0b81dd9c_5be7a75a294da7af2df1be75b7405216_pane0_partition0 status: DONE
+[2024-09-10T16:54:22.715+0530] {python.py:240} INFO - Done. Returned value was: None
+[2024-09-10T16:54:22.723+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T16:54:22.724+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=beam_etl_dag_with_credentials, task_id=run_beam_pipeline, run_id=manual__2024-09-10T11:22:27.616497+00:00, execution_date=20240910T112227, start_date=20240910T112236, end_date=20240910T112422
+[2024-09-10T16:54:22.754+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-09-10T16:54:22.754+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-09-10T16:54:22.755+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag_with_credentials queued_at:2024-09-10 11:22:27.714820+00:00
+[2024-09-10T16:54:22.755+0530] {logging_mixin.py:190} INFO - Task hostname:PG0392KD.springernature.com operator:PythonOperator
+[2024-09-10T16:54:22.777+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-10T16:54:22.799+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-10T16:54:22.800+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

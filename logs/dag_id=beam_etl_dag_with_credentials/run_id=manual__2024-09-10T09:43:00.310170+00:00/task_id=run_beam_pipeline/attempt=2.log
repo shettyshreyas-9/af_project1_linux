@@ -1,0 +1,333 @@
+[2024-09-10T15:16:25.900+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T15:16:25.912+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T09:43:00.310170+00:00 [queued]>
+[2024-09-10T15:16:25.918+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T09:43:00.310170+00:00 [queued]>
+[2024-09-10T15:16:25.918+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-10T15:16:25.944+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 09:43:00.310170+00:00
+[2024-09-10T15:16:25.948+0530] {standard_task_runner.py:72} INFO - Started process 187946 to run task
+[2024-09-10T15:16:25.962+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T09:43:00.310170+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmpxkzlqqnl']
+[2024-09-10T15:16:25.963+0530] {standard_task_runner.py:105} INFO - Job 65: Subtask run_beam_pipeline
+[2024-09-10T15:16:26.166+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T09:43:00.310170+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T15:16:26.220+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='beam_etl_dag_with_credentials' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T09:43:00.310170+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T09:43:00.310170+00:00'
+[2024-09-10T15:16:26.220+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T15:16:26.221+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T15:16:26.221+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 09:46:25.912405+00:00
+[2024-09-10T15:16:26.221+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag_with_credentials and current dag run status:running
+[2024-09-10T15:16:26.221+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T15:16:26.223+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T15:16:29.239+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T15:16:33.148+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T15:16:38.150+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T15:16:38.150+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T15:16:38.151+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 1.9399473181229605 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T15:16:43.098+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T15:16:47.092+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T15:16:51.915+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T15:16:51.915+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T15:16:51.915+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 2.451023099885661 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T15:16:57.375+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T15:17:01.331+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T15:17:06.347+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T15:17:06.347+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T15:17:06.347+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 6.550980582304941 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T15:17:15.911+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T15:17:19.950+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T15:17:25.143+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T15:17:25.144+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T15:17:25.144+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 8.660894753696908 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T15:17:36.819+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T15:17:40.803+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T15:17:45.829+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T15:17:45.830+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T15:17:45.830+0530] {auth.py:165} WARNING - Unable to find default credentials to use: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Connecting anonymously. This is expected if no credentials are needed to access GCP resources.
+[2024-09-10T15:17:48.204+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:17:48.210+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 4.781193889662664 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:17:53.382+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:17:53.383+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 5.0516044830671945 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:17:58.833+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:17:58.834+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 19.320881873723017 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:18:18.555+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:18:18.556+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 28.58864360415481 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:18:47.555+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:18:47.555+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 45.10830141088853 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:19:33.100+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:19:33.100+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 148.55874572219955 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:22:02.119+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T15:22:02.120+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 180.45142653151083 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T15:23:08.586+0530] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-09-10T15:23:08.588+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-10T15:23:08.590+0530] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 187946. PIDs of all processes in the group: [187946]
+[2024-09-10T15:23:08.590+0530] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 187946
+[2024-09-10T15:23:08.591+0530] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-10T15:23:08.621+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T15:23:08.643+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=187946, status='terminated', exitcode=0, started='15:16:24') (187946) terminated with exit code 0

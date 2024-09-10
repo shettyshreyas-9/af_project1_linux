@@ -1,0 +1,58 @@
+[2024-09-10T16:03:32.190+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T16:03:32.204+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T10:15:19.492880+00:00 [queued]>
+[2024-09-10T16:03:32.211+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T10:15:19.492880+00:00 [queued]>
+[2024-09-10T16:03:32.211+0530] {taskinstance.py:2865} INFO - Starting attempt 3 of 2
+[2024-09-10T16:03:32.243+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 10:15:19.492880+00:00
+[2024-09-10T16:03:32.250+0530] {standard_task_runner.py:72} INFO - Started process 195623 to run task
+[2024-09-10T16:03:32.255+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmp9dbbj0d9']
+[2024-09-10T16:03:32.256+0530] {standard_task_runner.py:105} INFO - Job 76: Subtask run_beam_pipeline
+[2024-09-10T16:03:32.321+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T10:15:19.492880+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T16:03:32.408+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='beam_etl_dag_with_credentials' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T10:15:19.492880+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T10:15:19.492880+00:00'
+[2024-09-10T16:03:32.410+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T16:03:32.410+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T16:03:32.410+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 10:33:32.204603+00:00
+[2024-09-10T16:03:32.411+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag_with_credentials and current dag run status:running
+[2024-09-10T16:03:32.411+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T16:03:32.522+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:32.526+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:33.569+0530] {pipeline_options.py:940} WARNING - Bucket specified in temp_location has soft-delete policy enabled. To avoid being billed for unnecessary storage costs, turn off the soft delete feature on buckets that your Dataflow jobs use for temporary and staging storage. For more information, see https://cloud.google.com/storage/docs/use-soft-delete#remove-soft-delete-policy.
+[2024-09-10T16:03:33.575+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:33.579+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:34.159+0530] {pipeline_options.py:940} WARNING - Bucket specified in staging_location has soft-delete policy enabled. To avoid being billed for unnecessary storage costs, turn off the soft delete feature on buckets that your Dataflow jobs use for temporary and staging storage. For more information, see https://cloud.google.com/storage/docs/use-soft-delete#remove-soft-delete-policy.
+[2024-09-10T16:03:36.716+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:36.721+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:37.349+0530] {pipeline_options.py:940} WARNING - Bucket specified in temp_location has soft-delete policy enabled. To avoid being billed for unnecessary storage costs, turn off the soft delete feature on buckets that your Dataflow jobs use for temporary and staging storage. For more information, see https://cloud.google.com/storage/docs/use-soft-delete#remove-soft-delete-policy.
+[2024-09-10T16:03:37.352+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:37.354+0530] {pipeline_options.py:372} WARNING - Discarding unparseable args: ['tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T10:15:19.492880+00:00', '--local', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py']
+[2024-09-10T16:03:37.905+0530] {pipeline_options.py:940} WARNING - Bucket specified in staging_location has soft-delete policy enabled. To avoid being billed for unnecessary storage costs, turn off the soft delete feature on buckets that your Dataflow jobs use for temporary and staging storage. For more information, see https://cloud.google.com/storage/docs/use-soft-delete#remove-soft-delete-policy.
+[2024-09-10T16:03:39.149+0530] {dataflow_runner.py:397} INFO - Pipeline has additional dependencies to be installed in SDK worker container, consider using the SDK container image pre-building workflow to avoid repetitive installations. Learn more on https://cloud.google.com/dataflow/docs/guides/using-custom-containers#prebuild
+[2024-09-10T16:03:39.150+0530] {environments.py:314} INFO - Using provided Python SDK container image: gcr.io/cloud-dataflow/v1beta3/beam_python3.10_sdk:2.58.1
+[2024-09-10T16:03:39.151+0530] {environments.py:321} INFO - Python SDK container image set to "gcr.io/cloud-dataflow/v1beta3/beam_python3.10_sdk:2.58.1" for Docker environment
+[2024-09-10T16:03:39.324+0530] {apiclient.py:667} INFO - Starting GCS upload to gs://sn_insights_test/staging/etl-pipeline-job.1725964419.318736/submission_environment_dependencies.txt...
+[2024-09-10T16:03:43.956+0530] {apiclient.py:677} INFO - Completed GCS upload to gs://sn_insights_test/staging/etl-pipeline-job.1725964419.318736/submission_environment_dependencies.txt in 4 seconds.
+[2024-09-10T16:03:43.957+0530] {apiclient.py:667} INFO - Starting GCS upload to gs://sn_insights_test/staging/etl-pipeline-job.1725964419.318736/pipeline.pb...
+[2024-09-10T16:03:49.174+0530] {apiclient.py:677} INFO - Completed GCS upload to gs://sn_insights_test/staging/etl-pipeline-job.1725964419.318736/pipeline.pb in 5 seconds.
+[2024-09-10T16:03:51.940+0530] {apiclient.py:848} INFO - Create job: <Job
+ clientRequestId: '20240910103339319579-1809'
+ createTime: '2024-09-10T10:33:51.816043Z'
+ currentStateTime: '1970-01-01T00:00:00Z'
+ id: '2024-09-10_03_33_51-17949340958295335037'
+ location: 'europe-west2'
+ name: 'etl-pipeline-job'
+ projectId: 'aceinternal-2ed449d3'
+ stageStates: []
+ startTime: '2024-09-10T10:33:51.816043Z'
+ steps: []
+ tempFiles: []
+ type: TypeValueValuesEnum(JOB_TYPE_BATCH, 1)>
+[2024-09-10T16:03:51.940+0530] {apiclient.py:850} INFO - Created job with id: [2024-09-10_03_33_51-17949340958295335037]
+[2024-09-10T16:03:51.940+0530] {apiclient.py:851} INFO - Submitted job: 2024-09-10_03_33_51-17949340958295335037
+[2024-09-10T16:03:51.941+0530] {apiclient.py:852} INFO - To access the Dataflow monitoring console, please navigate to https://console.cloud.google.com/dataflow/jobs/europe-west2/2024-09-10_03_33_51-17949340958295335037?project=aceinternal-2ed449d3
+[2024-09-10T16:03:54.038+0530] {dataflow_runner.py:153} INFO - Job 2024-09-10_03_33_51-17949340958295335037 is in state JOB_STATE_PENDING
+[2024-09-10T16:03:57.456+0530] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-09-10T16:03:57.458+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-10T16:03:57.459+0530] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 195623. PIDs of all processes in the group: [195623]
+[2024-09-10T16:03:57.459+0530] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 195623
+[2024-09-10T16:03:57.460+0530] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-10T16:03:57.484+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T16:03:57.512+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=195623, status='terminated', exitcode=0, started='16:03:31') (195623) terminated with exit code 0

@@ -1,0 +1,24 @@
+[2024-09-10T16:48:30.971+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T16:48:30.986+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:17:21.336370+00:00 [queued]>
+[2024-09-10T16:48:30.994+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:17:21.336370+00:00 [queued]>
+[2024-09-10T16:48:30.994+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-10T16:48:31.031+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 11:17:21.336370+00:00
+[2024-09-10T16:48:31.044+0530] {standard_task_runner.py:72} INFO - Started process 205872 to run task
+[2024-09-10T16:48:31.074+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag_with_credentials', 'run_beam_pipeline', 'manual__2024-09-10T11:17:21.336370+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmpumdypm29']
+[2024-09-10T16:48:31.076+0530] {standard_task_runner.py:105} INFO - Job 88: Subtask run_beam_pipeline
+[2024-09-10T16:48:31.243+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag_with_credentials.run_beam_pipeline manual__2024-09-10T11:17:21.336370+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T16:48:31.369+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='beam_etl_dag_with_credentials' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T11:17:21.336370+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T11:17:21.336370+00:00'
+[2024-09-10T16:48:31.374+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T16:48:31.374+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T16:48:31.375+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 11:18:30.987075+00:00
+[2024-09-10T16:48:31.375+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag_with_credentials and current dag run status:running
+[2024-09-10T16:48:31.375+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T16:48:31.388+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T16:48:34.863+0530] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-09-10T16:49:36.607+0530] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-09-10T16:49:36.608+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-10T16:49:36.609+0530] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 205872. PIDs of all processes in the group: [205872]
+[2024-09-10T16:49:36.610+0530] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 205872
+[2024-09-10T16:49:36.610+0530] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-10T16:49:36.758+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T16:49:36.784+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=205872, status='terminated', exitcode=0, started='16:48:30') (205872) terminated with exit code 0

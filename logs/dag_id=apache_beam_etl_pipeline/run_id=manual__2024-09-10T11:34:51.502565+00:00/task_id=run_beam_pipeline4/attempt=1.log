@@ -1,0 +1,77 @@
+[2024-09-10T17:07:00.975+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T17:07:00.990+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:34:51.502565+00:00 [queued]>
+[2024-09-10T17:07:00.995+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:34:51.502565+00:00 [queued]>
+[2024-09-10T17:07:00.995+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-09-10T17:07:01.022+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_beam_pipeline4> on 2024-09-10 11:34:51.502565+00:00
+[2024-09-10T17:07:01.025+0530] {standard_task_runner.py:72} INFO - Started process 210475 to run task
+[2024-09-10T17:07:01.029+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'apache_beam_etl_pipeline', 'run_beam_pipeline4', 'manual__2024-09-10T11:34:51.502565+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/aaz.py', '--cfg-path', '/tmp/tmplcm9_xi5']
+[2024-09-10T17:07:01.030+0530] {standard_task_runner.py:105} INFO - Job 108: Subtask run_beam_pipeline4
+[2024-09-10T17:07:01.076+0530] {task_command.py:467} INFO - Running <TaskInstance: apache_beam_etl_pipeline.run_beam_pipeline4 manual__2024-09-10T11:34:51.502565+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T17:07:01.273+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow_SS' AIRFLOW_CTX_DAG_ID='apache_beam_etl_pipeline' AIRFLOW_CTX_TASK_ID='run_beam_pipeline4' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T11:34:51.502565+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T11:34:51.502565+00:00'
+[2024-09-10T17:07:01.274+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T17:07:01.274+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T17:07:01.274+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline4 state:running start_date:2024-09-10 11:37:00.990598+00:00
+[2024-09-10T17:07:01.275+0530] {logging_mixin.py:190} INFO - Dag name:apache_beam_etl_pipeline and current dag run status:running
+[2024-09-10T17:07:01.275+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T17:07:01.276+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-10T17:07:01.277+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/sst7260/airflow_projects/project1/beam_scripts/etl_pipe_1.py']
+[2024-09-10T17:07:01.284+0530] {subprocess.py:86} INFO - Output:
+[2024-09-10T17:07:02.757+0530] {subprocess.py:93} INFO - [2024-09-10T17:07:02.756+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:07:03.027+0530] {subprocess.py:93} INFO - [2024-09-10T17:07:03.027+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T17:07:05.334+0530] {subprocess.py:93} INFO - [2024-09-10T17:07:05.333+0530] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-09-10T17:07:26.311+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:26.312+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:31.346+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:31.347+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:36.407+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:36.408+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:41.434+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:41.435+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:46.489+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:46.489+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:51.513+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:51.513+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:07:56.552+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:07:56.553+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:02.043+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:02.044+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:07.083+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:07.083+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:12.143+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:12.143+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:17.218+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:17.218+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:22.280+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:22.280+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:27.321+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:27.322+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:32.425+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:32.426+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:36.790+0530] {subprocess.py:93} INFO - [2024-09-10T17:08:36.789+0530] {bigquery_file_loads.py:703} INFO - Load job has 1 files. Job name is beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0.
+[2024-09-10T17:08:36.791+0530] {subprocess.py:93} INFO - [2024-09-10T17:08:36.790+0530] {bigquery_file_loads.py:739} INFO - Triggering job beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0 to load data to BigQuery table <TableReference
+[2024-09-10T17:08:36.791+0530] {subprocess.py:93} INFO -  datasetId: 'sandbox_ss_eu'
+[2024-09-10T17:08:36.791+0530] {subprocess.py:93} INFO -  projectId: 'aceinternal-2ed449d3'
+[2024-09-10T17:08:36.791+0530] {subprocess.py:93} INFO -  tableId: 'processed_dfj'>.Schema: {'fields': [{'name': 'item_code', 'type': 'STRING', 'mode': 'REQUIRED'}, {'name': 'total_amount', 'type': 'FLOAT', 'mode': 'REQUIRED'}]}. Additional parameters: {}. Source format: NEWLINE_DELIMITED_JSON
+[2024-09-10T17:08:37.453+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:37.453+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:37.549+0530] {subprocess.py:93} INFO - [2024-09-10T17:08:37.549+0530] {bigquery_tools.py:579} INFO - Started BigQuery job: <JobReference
+[2024-09-10T17:08:37.549+0530] {subprocess.py:93} INFO -  jobId: 'beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0'
+[2024-09-10T17:08:37.550+0530] {subprocess.py:93} INFO -  location: 'EU'
+[2024-09-10T17:08:37.550+0530] {subprocess.py:93} INFO -  projectId: 'aceinternal-2ed449d3'>
+[2024-09-10T17:08:37.550+0530] {subprocess.py:93} INFO -  bq show -j --format=prettyjson --project_id=aceinternal-2ed449d3 beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0
+[2024-09-10T17:08:37.984+0530] {subprocess.py:93} INFO - [2024-09-10T17:08:37.983+0530] {bigquery_tools.py:652} INFO - Job aceinternal-2ed449d3:EU.beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0 status: RUNNING
+[2024-09-10T17:08:42.482+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:42.483+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:48.324+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 210569 does not match the current pid 210475
+[2024-09-10T17:08:48.324+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T17:08:48.425+0530] {subprocess.py:93} INFO - [2024-09-10T17:08:48.424+0530] {bigquery_tools.py:652} INFO - Job aceinternal-2ed449d3:EU.beam_bq_job_LOAD_etlpipelinejob2_LOAD_STEP_4eae81e7aab6463faad8be7564f369f4_5be7a75a294da7af2df1be75b7405216_pane0_partition0 status: DONE
+[2024-09-10T17:08:50.622+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-09-10T17:08:50.656+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T17:08:50.656+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=apache_beam_etl_pipeline, task_id=run_beam_pipeline4, run_id=manual__2024-09-10T11:34:51.502565+00:00, execution_date=20240910T113451, start_date=20240910T113725, end_date=20240910T113850
+[2024-09-10T17:08:50.685+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-09-10T17:08:50.686+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-09-10T17:08:50.686+0530] {logging_mixin.py:190} INFO - Dag name:apache_beam_etl_pipeline queued_at:2024-09-10 11:34:51.515655+00:00
+[2024-09-10T17:08:50.686+0530] {logging_mixin.py:190} INFO - Task hostname:PG0392KD.springernature.com operator:BashOperator
+[2024-09-10T17:08:50.715+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-10T17:08:50.727+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-10T17:08:50.728+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

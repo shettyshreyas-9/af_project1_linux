@@ -1,0 +1,113 @@
+[2024-09-10T14:10:17.625+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T14:10:17.632+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:40:14.706302+00:00 [queued]>
+[2024-09-10T14:10:17.636+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:40:14.706302+00:00 [queued]>
+[2024-09-10T14:10:17.637+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-09-10T14:10:17.655+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 08:40:14.706302+00:00
+[2024-09-10T14:10:17.660+0530] {standard_task_runner.py:72} INFO - Started process 175308 to run task
+[2024-09-10T14:10:17.664+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag', 'run_beam_pipeline', 'manual__2024-09-10T08:40:14.706302+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmpzcjqy750']
+[2024-09-10T14:10:17.664+0530] {standard_task_runner.py:105} INFO - Job 57: Subtask run_beam_pipeline
+[2024-09-10T14:10:17.724+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:40:14.706302+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T14:10:17.827+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow_SS' AIRFLOW_CTX_DAG_ID='beam_etl_dag' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T08:40:14.706302+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T08:40:14.706302+00:00'
+[2024-09-10T14:10:17.828+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T14:10:17.828+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T14:10:17.828+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 08:40:17.632487+00:00
+[2024-09-10T14:10:17.828+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag and current dag run status:running
+[2024-09-10T14:10:17.828+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T14:10:17.830+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T14:10:17.841+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py", line 38, in transform_load
+    | 'ReadFromText' >> beam.io.ReadFromText(raw_data_bucket, skip_header_lines=1, coder=beam.coders.BytesCoder())
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 781, in __init__
+    self._source = self._source_class(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 140, in __init__
+    super().__init__(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 127, in __init__
+    self._validate()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/options/value_provider.py", line 193, in _f
+    return fnc(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 188, in _validate
+    match_result = FileSystems.match([pattern], limits=[1])[0]
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 238, in match
+    filesystem = FileSystems.get_filesystem(patterns[0])
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 138, in get_filesystem
+    raise ValueError(
+ValueError: Unable to get filesystem from specified path, please use the correct path or ensure the required dependency is installed, e.g., pip install apache-beam[gcp]. Path specified: gs://sn_insights_test/input/OnlineRetail.csv
+[2024-09-10T14:10:17.850+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-09-10T14:10:17.850+0530] {logging_mixin.py:190} INFO - Task start:2024-09-10 08:40:17.632487+00:00 end:2024-09-10 08:40:17.850075+00:00 duration:0.217588
+[2024-09-10T14:10:17.850+0530] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): run_beam_pipeline> dag:<DAG: beam_etl_dag> dagrun:<DagRun beam_etl_dag @ 2024-09-10 08:40:14.706302+00:00: manual__2024-09-10T08:40:14.706302+00:00, state:running, queued_at: 2024-09-10 08:40:14.723077+00:00. externally triggered: True>
+[2024-09-10T14:10:17.851+0530] {logging_mixin.py:190} INFO - Failure caused by Unable to get filesystem from specified path, please use the correct path or ensure the required dependency is installed, e.g., pip install apache-beam[gcp]. Path specified: gs://sn_insights_test/input/OnlineRetail.csv
+[2024-09-10T14:10:17.851+0530] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=beam_etl_dag, task_id=run_beam_pipeline, run_id=manual__2024-09-10T08:40:14.706302+00:00, execution_date=20240910T084014, start_date=20240910T084017, end_date=20240910T084017
+[2024-09-10T14:10:17.892+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T14:10:17.892+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 57 for task run_beam_pipeline (Unable to get filesystem from specified path, please use the correct path or ensure the required dependency is installed, e.g., pip install apache-beam[gcp]. Path specified: gs://sn_insights_test/input/OnlineRetail.csv; 175308)
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py", line 38, in transform_load
+    | 'ReadFromText' >> beam.io.ReadFromText(raw_data_bucket, skip_header_lines=1, coder=beam.coders.BytesCoder())
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 781, in __init__
+    self._source = self._source_class(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 140, in __init__
+    super().__init__(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 127, in __init__
+    self._validate()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/options/value_provider.py", line 193, in _f
+    return fnc(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 188, in _validate
+    match_result = FileSystems.match([pattern], limits=[1])[0]
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 238, in match
+    filesystem = FileSystems.get_filesystem(patterns[0])
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 138, in get_filesystem
+    raise ValueError(
+ValueError: Unable to get filesystem from specified path, please use the correct path or ensure the required dependency is installed, e.g., pip install apache-beam[gcp]. Path specified: gs://sn_insights_test/input/OnlineRetail.csv
+[2024-09-10T14:10:17.918+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-09-10T14:10:17.928+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-10T14:10:17.928+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

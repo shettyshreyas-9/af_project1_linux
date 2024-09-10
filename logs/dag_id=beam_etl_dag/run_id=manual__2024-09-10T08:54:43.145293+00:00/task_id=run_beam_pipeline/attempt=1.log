@@ -1,0 +1,576 @@
+[2024-09-10T14:24:46.218+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-10T14:24:46.224+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:54:43.145293+00:00 [queued]>
+[2024-09-10T14:24:46.231+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:54:43.145293+00:00 [queued]>
+[2024-09-10T14:24:46.231+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-09-10T14:24:46.255+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_beam_pipeline> on 2024-09-10 08:54:43.145293+00:00
+[2024-09-10T14:24:46.263+0530] {standard_task_runner.py:72} INFO - Started process 178539 to run task
+[2024-09-10T14:24:46.266+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'beam_etl_dag', 'run_beam_pipeline', 'manual__2024-09-10T08:54:43.145293+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/beam_etl_dag.py', '--cfg-path', '/tmp/tmpi9pzee9c']
+[2024-09-10T14:24:46.267+0530] {standard_task_runner.py:105} INFO - Job 59: Subtask run_beam_pipeline
+[2024-09-10T14:24:46.319+0530] {task_command.py:467} INFO - Running <TaskInstance: beam_etl_dag.run_beam_pipeline manual__2024-09-10T08:54:43.145293+00:00 [running]> on host PG0392KD.springernature.com
+[2024-09-10T14:24:46.476+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow_SS' AIRFLOW_CTX_DAG_ID='beam_etl_dag' AIRFLOW_CTX_TASK_ID='run_beam_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-09-10T08:54:43.145293+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-10T08:54:43.145293+00:00'
+[2024-09-10T14:24:46.482+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-10T14:24:46.482+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-10T14:24:46.482+0530] {logging_mixin.py:190} INFO - Current task name:run_beam_pipeline state:running start_date:2024-09-10 08:54:46.225733+00:00
+[2024-09-10T14:24:46.482+0530] {logging_mixin.py:190} INFO - Dag name:beam_etl_dag and current dag run status:running
+[2024-09-10T14:24:46.483+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-10T14:24:46.501+0530] {pipeline.py:197} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-09-10T14:24:49.546+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T14:24:53.575+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T14:24:58.536+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T14:24:58.537+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T14:24:58.541+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 1.9003964409297875 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T14:25:03.449+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T14:25:07.357+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T14:25:12.398+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T14:25:12.399+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T14:25:12.399+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 3.0665738162960174 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T14:25:18.474+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T14:25:22.534+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T14:25:27.599+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T14:25:27.599+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T14:25:27.600+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 6.269615970150408 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T14:25:36.881+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T14:25:40.858+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T14:25:45.943+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T14:25:45.944+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T14:25:45.944+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 8.582333466304469 seconds before retrying _get_credentials_with_retrys because we caught exception: google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/internal/gcp/auth.py", line 175, in _get_credentials_with_retrys
+    credentials, _ = google.auth.default(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+
+[2024-09-10T14:25:57.540+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2024-09-10T14:26:01.502+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2024-09-10T14:26:06.426+0530] {_metadata.py:142} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2024-09-10T14:26:06.426+0530] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2024-09-10T14:26:06.426+0530] {auth.py:165} WARNING - Unable to find default credentials to use: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Connecting anonymously. This is expected if no credentials are needed to access GCP resources.
+[2024-09-10T14:26:07.076+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:26:07.082+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 3.4744196159010157 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:26:10.946+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:26:10.947+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 5.001896699471693 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:26:16.341+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:26:16.343+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 17.52312753953965 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:26:34.273+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:26:34.274+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 31.910688933482444 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:27:06.605+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:27:06.606+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 66.62625131061083 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:27:17.369+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:17.370+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:22.406+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:22.407+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:27.441+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:27.441+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:32.476+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:32.476+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:37.518+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:37.518+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:42.563+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:42.563+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:47.605+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:47.605+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:52.652+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:52.653+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:27:57.704+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:27:57.705+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:02.747+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:02.748+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:07.793+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:07.793+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:12.841+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:12.841+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:13.687+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:28:13.688+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 129.0594846372443 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:28:17.890+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:17.890+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:22.937+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:22.937+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:27.977+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:27.977+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:33.019+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:33.019+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:38.063+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:38.064+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:43.112+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:43.112+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:48.143+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:48.144+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:53.182+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:53.182+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:28:58.214+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:28:58.215+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:03.243+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:03.244+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:08.283+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:08.283+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:13.331+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:13.332+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:18.364+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:18.364+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:23.407+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:23.408+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:28.443+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:28.444+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:33.484+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:33.484+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:38.514+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:38.514+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:43.543+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:43.543+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:48.577+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:48.578+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:53.607+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:53.607+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:29:58.636+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:29:58.636+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:03.677+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:03.678+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:08.713+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:08.714+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:13.750+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:13.751+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:18.793+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:18.794+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:23.235+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:30:23.236+0530] {retry.py:313} WARNING - Retry with exponential backoff: waiting for 192.10429195210128 seconds before retrying _gcs_object because we caught exception: google.auth.exceptions.InvalidOperation: Anonymous credentials cannot be refreshed.
+ Traceback for above exception (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/utils/retry.py", line 298, in wrapper
+    return fun(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/gcp/gcsio.py", line 462, in _gcs_object
+    blob = bucket.get_blob(blob_name)
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1283, in get_blob
+    blob.reload(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+    api_response = client._get_resource(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/client.py", line 464, in _get_resource
+    return self._connection.api_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 90, in api_request
+    return call()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/transport/requests.py", line 574, in request
+    self.credentials.refresh(auth_request)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/google/auth/credentials.py", line 311, in refresh
+    raise exceptions.InvalidOperation("Anonymous credentials cannot be refreshed.")
+
+[2024-09-10T14:30:23.835+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:23.836+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:28.863+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:28.863+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:33.902+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:33.902+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:38.936+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:38.936+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:43.967+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:43.967+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:49.006+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:49.006+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:54.047+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:54.048+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:30:59.087+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:30:59.087+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:04.129+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:04.130+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:09.163+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:09.164+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:14.213+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:14.214+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:19.253+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:19.254+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:24.295+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:24.295+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:29.341+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:29.341+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:34.382+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:34.383+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:39.417+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:39.417+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:44.455+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:44.456+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:49.490+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:49.490+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:54.528+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:54.528+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:31:59.575+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:31:59.575+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:04.611+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:04.611+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:09.644+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:09.645+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:14.691+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:14.692+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:19.735+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:19.735+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:24.775+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:24.775+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:29.809+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:29.809+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:34.850+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:34.851+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:39.891+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:39.892+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:44.929+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:44.930+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:49.971+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:49.971+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:32:55.002+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:32:55.003+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:00.033+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:00.034+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:05.061+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:05.062+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:10.116+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:10.116+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:15.164+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:15.165+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:20.207+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:20.207+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:25.243+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:25.244+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:30.272+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:30.273+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:35.308+0530] {local_task_job_runner.py:318} WARNING - Recorded pid 179171 does not match the current pid 178539
+[2024-09-10T14:33:35.308+0530] {local_task_job_runner.py:218} WARNING - Heartbeat failed with Exception: PID of job runner does not match
+[2024-09-10T14:33:35.807+0530] {requests.py:558} INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+[2024-09-10T14:33:35.810+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py", line 38, in transform_load
+    | 'ReadFromText' >> beam.io.ReadFromText(raw_data_bucket, skip_header_lines=1, coder=beam.coders.BytesCoder())
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 781, in __init__
+    self._source = self._source_class(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 140, in __init__
+    super().__init__(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 127, in __init__
+    self._validate()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/options/value_provider.py", line 193, in _f
+    return fnc(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 188, in _validate
+    match_result = FileSystems.match([pattern], limits=[1])[0]
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 239, in match
+    return filesystem.match(patterns, limits)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystem.py", line 804, in match
+    raise BeamIOError("Match operation failed", exceptions)
+apache_beam.io.filesystem.BeamIOError: Match operation failed with exceptions {'gs://sn_insights_test/input/OnlineRetail.csv': InvalidOperation('Anonymous credentials cannot be refreshed.')}
+[2024-09-10T14:33:35.840+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-09-10T14:33:35.840+0530] {logging_mixin.py:190} INFO - Task start:2024-09-10 08:57:16.464025+00:00 end:2024-09-10 09:03:35.838800+00:00 duration:379.374775
+[2024-09-10T14:33:35.840+0530] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): run_beam_pipeline> dag:<DAG: beam_etl_dag> dagrun:<DagRun beam_etl_dag @ 2024-09-10 08:54:43.145293+00:00: manual__2024-09-10T08:54:43.145293+00:00, state:running, queued_at: 2024-09-10 08:54:43.175635+00:00. externally triggered: True>
+[2024-09-10T14:33:35.841+0530] {logging_mixin.py:190} INFO - Failure caused by Match operation failed with exceptions {'gs://sn_insights_test/input/OnlineRetail.csv': InvalidOperation('Anonymous credentials cannot be refreshed.')}
+[2024-09-10T14:33:35.841+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=beam_etl_dag, task_id=run_beam_pipeline, run_id=manual__2024-09-10T08:54:43.145293+00:00, execution_date=20240910T085443, start_date=20240910T085716, end_date=20240910T090335
+[2024-09-10T14:33:35.870+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-10T14:33:35.871+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 59 for task run_beam_pipeline (Match operation failed with exceptions {'gs://sn_insights_test/input/OnlineRetail.csv': InvalidOperation('Anonymous credentials cannot be refreshed.')}; 178539)
+Traceback (most recent call last):
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py", line 38, in transform_load
+    | 'ReadFromText' >> beam.io.ReadFromText(raw_data_bucket, skip_header_lines=1, coder=beam.coders.BytesCoder())
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 781, in __init__
+    self._source = self._source_class(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/textio.py", line 140, in __init__
+    super().__init__(
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 127, in __init__
+    self._validate()
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/options/value_provider.py", line 193, in _f
+    return fnc(self, *args, **kwargs)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filebasedsource.py", line 188, in _validate
+    match_result = FileSystems.match([pattern], limits=[1])[0]
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystems.py", line 239, in match
+    return filesystem.match(patterns, limits)
+  File "/home/sst7260/airflow_projects/project1/env/lib/python3.10/site-packages/apache_beam/io/filesystem.py", line 804, in match
+    raise BeamIOError("Match operation failed", exceptions)
+apache_beam.io.filesystem.BeamIOError: Match operation failed with exceptions {'gs://sn_insights_test/input/OnlineRetail.csv': InvalidOperation('Anonymous credentials cannot be refreshed.')}
+[2024-09-10T14:33:35.885+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-09-10T14:33:35.897+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-10T14:33:35.899+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

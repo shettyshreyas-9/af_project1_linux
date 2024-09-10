@@ -1,0 +1,533 @@
+[2024-09-09T20:45:30.666+0530] {processor.py:186} INFO - Started process (PID=127955) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:45:30.667+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:45:30.672+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.671+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:45:30.757+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:45:30.898+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.897+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG:aaq_v5
+[2024-09-09T20:45:30.914+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.914+0530] {override.py:1900} INFO - Created Permission View: can read on DAG:aaq_v5
+[2024-09-09T20:45:30.928+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.928+0530] {override.py:1900} INFO - Created Permission View: can edit on DAG:aaq_v5
+[2024-09-09T20:45:30.963+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.963+0530] {override.py:1900} INFO - Created Permission View: can create on DAG Run:aaq_v5
+[2024-09-09T20:45:30.977+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.977+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:aaq_v5
+[2024-09-09T20:45:30.992+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:30.992+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Run:aaq_v5
+[2024-09-09T20:45:31.008+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:31.007+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:aaq_v5
+[2024-09-09T20:45:31.008+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:31.008+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:45:31.015+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:31.014+0530] {dag.py:3252} INFO - Creating ORM DAG for aaq_v5
+[2024-09-09T20:45:31.019+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:45:31.019+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-08 00:00:00+00:00, run_after=2024-09-09 00:00:00+00:00
+[2024-09-09T20:45:31.041+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.380 seconds
+[2024-09-09T20:46:52.330+0530] {processor.py:186} INFO - Started process (PID=128505) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:46:52.332+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:46:52.334+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:46:52.334+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:46:52.342+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:46:52.352+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:46:52.351+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:46:52.365+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:46:52.365+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:46:52.391+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.065 seconds
+[2024-09-09T20:47:27.721+0530] {processor.py:186} INFO - Started process (PID=128541) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:47:27.722+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:47:27.724+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:47:27.724+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:47:27.732+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:47:27.741+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:47:27.741+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:47:27.753+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:47:27.753+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:47:27.777+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T20:48:20.970+0530] {processor.py:186} INFO - Started process (PID=128605) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:48:20.973+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:48:20.975+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:48:20.975+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:48:20.982+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:48:20.991+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:48:20.991+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:48:21.004+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:48:21.004+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:48:21.028+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.062 seconds
+[2024-09-09T20:49:12.042+0530] {processor.py:186} INFO - Started process (PID=128672) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:49:12.046+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:49:12.048+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:49:12.048+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:49:12.054+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:49:12.066+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:49:12.066+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:49:12.078+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:49:12.078+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:49:12.102+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.065 seconds
+[2024-09-09T20:50:04.652+0530] {processor.py:186} INFO - Started process (PID=128736) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:04.662+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:50:04.665+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:04.664+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:04.673+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:04.682+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:04.682+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:50:04.694+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:04.694+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:50:04.716+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.069 seconds
+[2024-09-09T20:50:57.095+0530] {processor.py:186} INFO - Started process (PID=128825) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:57.096+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:50:57.099+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:57.099+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:57.113+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:50:57.128+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:57.127+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:50:57.150+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:50:57.149+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:50:57.181+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.094 seconds
+[2024-09-09T20:51:51.487+0530] {processor.py:186} INFO - Started process (PID=128978) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:51:51.489+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:51:51.491+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:51:51.491+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:51:51.500+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:51:51.515+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:51:51.514+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:51:51.532+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:51:51.532+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:51:51.562+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.082 seconds
+[2024-09-09T20:52:50.090+0530] {processor.py:186} INFO - Started process (PID=129359) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:52:50.092+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:52:50.093+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:52:50.093+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:52:50.103+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:52:50.119+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:52:50.119+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:52:50.138+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:52:50.137+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:52:50.174+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.090 seconds
+[2024-09-09T20:53:53.012+0530] {processor.py:186} INFO - Started process (PID=129682) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:53:53.022+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:53:53.024+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:53:53.024+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:53:53.032+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:53:53.045+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:53:53.045+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:53:53.058+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:53:53.058+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:53:53.084+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.077 seconds
+[2024-09-09T20:54:32.543+0530] {processor.py:186} INFO - Started process (PID=129969) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:54:32.545+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:54:32.546+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:54:32.546+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:54:32.552+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:54:32.562+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:54:32.562+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:54:32.574+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:54:32.574+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:54:32.594+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.055 seconds
+[2024-09-09T20:55:06.400+0530] {processor.py:186} INFO - Started process (PID=130038) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:06.402+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:55:06.404+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:06.404+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:06.411+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:06.426+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:06.425+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:55:06.447+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:06.447+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:55:06.474+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.080 seconds
+[2024-09-09T20:55:59.664+0530] {processor.py:186} INFO - Started process (PID=130131) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:59.665+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:55:59.667+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:59.667+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:59.675+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:55:59.685+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:59.685+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:55:59.698+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:55:59.698+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:55:59.727+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T20:56:54.917+0530] {processor.py:186} INFO - Started process (PID=130412) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:56:54.922+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:56:54.924+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:56:54.924+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:56:54.930+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:56:54.944+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:56:54.944+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:56:54.958+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:56:54.957+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:56:54.980+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T20:57:49.717+0530] {processor.py:186} INFO - Started process (PID=130483) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:57:49.719+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:57:49.721+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:57:49.720+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:57:49.727+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:57:49.739+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:57:49.738+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:57:49.758+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:57:49.757+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:57:49.783+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.072 seconds
+[2024-09-09T20:58:42.505+0530] {processor.py:186} INFO - Started process (PID=130561) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:58:42.508+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:58:42.510+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:58:42.510+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:58:42.518+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:58:42.533+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:58:42.533+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:58:42.556+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:58:42.555+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:58:42.581+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.085 seconds
+[2024-09-09T20:59:39.629+0530] {processor.py:186} INFO - Started process (PID=130773) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:59:39.631+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T20:59:39.634+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:59:39.633+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:59:39.649+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T20:59:39.666+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:59:39.665+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T20:59:39.686+0530] {logging_mixin.py:190} INFO - [2024-09-09T20:59:39.686+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T20:59:39.718+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.096 seconds
+[2024-09-09T21:00:34.991+0530] {processor.py:186} INFO - Started process (PID=130987) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:00:34.993+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:00:34.995+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:00:34.994+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:00:35.004+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:00:35.018+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:00:35.017+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:00:35.033+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:00:35.033+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:00:35.059+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.073 seconds
+[2024-09-09T21:01:10.436+0530] {processor.py:186} INFO - Started process (PID=131215) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:10.438+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:01:10.439+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:10.439+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:10.448+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:10.462+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:10.462+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:01:10.475+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:10.475+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:01:10.497+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.068 seconds
+[2024-09-09T21:01:45.347+0530] {processor.py:186} INFO - Started process (PID=131268) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:45.348+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:01:45.349+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:45.349+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:45.357+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:01:45.366+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:45.366+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:01:45.378+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:01:45.378+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:01:45.400+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.058 seconds
+[2024-09-09T21:02:40.291+0530] {processor.py:186} INFO - Started process (PID=131443) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:02:40.296+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:02:40.297+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:02:40.297+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:02:40.304+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:02:40.315+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:02:40.314+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:02:40.327+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:02:40.327+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:02:40.348+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.063 seconds
+[2024-09-09T21:03:34.666+0530] {processor.py:186} INFO - Started process (PID=131522) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:03:34.675+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:03:34.676+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:03:34.676+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:03:34.685+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:03:34.694+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:03:34.694+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:03:34.707+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:03:34.706+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:03:34.728+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.068 seconds
+[2024-09-09T21:04:31.302+0530] {processor.py:186} INFO - Started process (PID=131587) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:04:31.304+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:04:31.306+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:04:31.306+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:04:31.314+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:04:31.329+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:04:31.328+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:04:31.344+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:04:31.344+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:04:31.370+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.073 seconds
+[2024-09-09T21:05:30.285+0530] {processor.py:186} INFO - Started process (PID=131814) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:05:30.289+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:05:30.290+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:05:30.290+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:05:30.297+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:05:30.309+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:05:30.308+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:05:30.321+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:05:30.320+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:05:30.343+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.063 seconds
+[2024-09-09T21:06:24.060+0530] {processor.py:186} INFO - Started process (PID=131911) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:06:24.062+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:06:24.063+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:06:24.063+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:06:24.070+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:06:24.079+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:06:24.079+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:06:24.091+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:06:24.091+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:06:24.111+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.054 seconds
+[2024-09-09T21:07:18.345+0530] {processor.py:186} INFO - Started process (PID=131978) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:07:18.347+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:07:18.348+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:07:18.348+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:07:18.356+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:07:18.365+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:07:18.365+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:07:18.378+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:07:18.378+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:07:18.399+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:08:10.212+0530] {processor.py:186} INFO - Started process (PID=132041) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:08:10.213+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:08:10.214+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:08:10.214+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:08:10.222+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:08:10.231+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:08:10.231+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:08:10.243+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:08:10.243+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:08:10.267+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:09:08.009+0530] {processor.py:186} INFO - Started process (PID=132106) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:09:08.014+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:09:08.015+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:09:08.015+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:09:08.023+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:09:08.032+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:09:08.032+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:09:08.044+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:09:08.044+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:09:08.068+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:10:02.464+0530] {processor.py:186} INFO - Started process (PID=132171) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:02.469+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:10:02.471+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:02.470+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:02.480+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:02.492+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:02.491+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:10:02.506+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:02.506+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:10:02.528+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.072 seconds
+[2024-09-09T21:10:52.700+0530] {processor.py:186} INFO - Started process (PID=132260) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:52.702+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:10:52.704+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:52.703+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:52.716+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:10:52.735+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:52.735+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:10:52.757+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:10:52.757+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:10:52.781+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.089 seconds
+[2024-09-09T21:11:48.679+0530] {processor.py:186} INFO - Started process (PID=132328) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:11:48.681+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:11:48.683+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:11:48.683+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:11:48.694+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:11:48.709+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:11:48.709+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:11:48.726+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:11:48.725+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:11:48.750+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.076 seconds
+[2024-09-09T21:12:39.698+0530] {processor.py:186} INFO - Started process (PID=132391) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:12:39.707+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:12:39.709+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:12:39.708+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:12:39.716+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:12:39.727+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:12:39.726+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:12:39.739+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:12:39.739+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:12:39.761+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T21:13:36.201+0530] {processor.py:186} INFO - Started process (PID=132457) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:13:36.206+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:13:36.207+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:13:36.207+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:13:36.213+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:13:36.223+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:13:36.223+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:13:36.235+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:13:36.235+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:13:36.257+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T21:14:34.010+0530] {processor.py:186} INFO - Started process (PID=132522) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:14:34.011+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:14:34.013+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:14:34.012+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:14:34.020+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:14:34.030+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:14:34.030+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:14:34.043+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:14:34.042+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:14:34.068+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:15:32.067+0530] {processor.py:186} INFO - Started process (PID=132653) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:15:32.072+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:15:32.073+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:15:32.073+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:15:32.081+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:15:32.091+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:15:32.091+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:15:32.104+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:15:32.104+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:15:32.127+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.065 seconds
+[2024-09-09T21:16:28.646+0530] {processor.py:186} INFO - Started process (PID=132753) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:16:28.648+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:16:28.649+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:16:28.649+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:16:28.656+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:16:28.665+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:16:28.665+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:16:28.678+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:16:28.678+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:16:28.702+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.060 seconds
+[2024-09-09T21:17:23.386+0530] {processor.py:186} INFO - Started process (PID=132821) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:17:23.388+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:17:23.389+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:17:23.389+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:17:23.397+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:17:23.407+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:17:23.407+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:17:23.420+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:17:23.420+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:17:23.441+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.060 seconds
+[2024-09-09T21:18:18.046+0530] {processor.py:186} INFO - Started process (PID=132884) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:18:18.055+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:18:18.057+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:18:18.057+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:18:18.064+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:18:18.075+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:18:18.074+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:18:18.090+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:18:18.089+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:18:18.112+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.073 seconds
+[2024-09-09T21:19:14.757+0530] {processor.py:186} INFO - Started process (PID=132950) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:19:14.760+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:19:14.762+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:19:14.762+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:19:14.769+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:19:14.779+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:19:14.779+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:19:14.791+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:19:14.791+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:19:14.815+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.062 seconds
+[2024-09-09T21:20:08.256+0530] {processor.py:186} INFO - Started process (PID=133011) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:20:08.257+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:20:08.259+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:20:08.258+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:20:08.266+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:20:08.277+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:20:08.277+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:20:08.290+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:20:08.290+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:20:08.307+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.057 seconds
+[2024-09-09T21:21:04.401+0530] {processor.py:186} INFO - Started process (PID=133168) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:04.402+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:21:04.403+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:04.403+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:04.410+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:04.420+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:04.420+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:21:04.433+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:04.433+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:21:04.453+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.057 seconds
+[2024-09-09T21:21:58.715+0530] {processor.py:186} INFO - Started process (PID=133238) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:58.716+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:21:58.718+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:58.718+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:58.728+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:21:58.738+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:58.738+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:21:58.751+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:21:58.751+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:21:58.773+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:22:50.271+0530] {processor.py:186} INFO - Started process (PID=133301) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:22:50.276+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:22:50.277+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:22:50.277+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:22:50.285+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:22:50.295+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:22:50.295+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:22:50.307+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:22:50.307+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:22:50.330+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:23:44.696+0530] {processor.py:186} INFO - Started process (PID=133365) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:23:44.701+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:23:44.702+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:23:44.702+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:23:44.710+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:23:44.721+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:23:44.720+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:23:44.734+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:23:44.734+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:23:44.757+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.069 seconds
+[2024-09-09T21:24:43.431+0530] {processor.py:186} INFO - Started process (PID=133430) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:24:43.435+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:24:43.436+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:24:43.435+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:24:43.442+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:24:43.452+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:24:43.451+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:24:43.464+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:24:43.464+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:24:43.489+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.063 seconds
+[2024-09-09T21:25:39.984+0530] {processor.py:186} INFO - Started process (PID=133584) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:25:39.989+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:25:39.991+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:25:39.990+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:25:39.998+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:25:40.009+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:25:40.009+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:25:40.022+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:25:40.022+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:25:40.046+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.065 seconds
+[2024-09-09T21:26:37.835+0530] {processor.py:186} INFO - Started process (PID=133657) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:26:37.838+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:26:37.840+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:26:37.839+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:26:37.846+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:26:37.856+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:26:37.855+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:26:37.867+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:26:37.867+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:26:37.895+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:27:31.578+0530] {processor.py:186} INFO - Started process (PID=133737) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:27:31.579+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:27:31.580+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:27:31.580+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:27:31.587+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:27:31.596+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:27:31.596+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:27:31.609+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:27:31.609+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:27:31.631+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.057 seconds
+[2024-09-09T21:28:26.958+0530] {processor.py:186} INFO - Started process (PID=133844) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:28:26.967+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:28:26.968+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:28:26.968+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:28:26.975+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:28:26.985+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:28:26.984+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:28:26.999+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:28:26.999+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:28:27.019+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.066 seconds
+[2024-09-09T21:29:24.148+0530] {processor.py:186} INFO - Started process (PID=133910) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:29:24.149+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:29:24.151+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:29:24.150+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:29:24.157+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:29:24.167+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:29:24.167+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:29:24.179+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:29:24.179+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:29:24.202+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.060 seconds
+[2024-09-09T21:30:16.834+0530] {processor.py:186} INFO - Started process (PID=133972) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:30:16.839+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:30:16.840+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:30:16.840+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:30:16.850+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:30:16.871+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:30:16.871+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:30:16.909+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:30:16.909+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:30:16.959+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.131 seconds
+[2024-09-09T21:31:10.584+0530] {processor.py:186} INFO - Started process (PID=134064) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:31:10.585+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:31:10.586+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:31:10.586+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:31:10.593+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:31:10.603+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:31:10.602+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:31:10.617+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:31:10.616+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:31:10.639+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.060 seconds
+[2024-09-09T21:32:05.275+0530] {processor.py:186} INFO - Started process (PID=134132) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:32:05.277+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:32:05.278+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:32:05.278+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:32:05.284+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:32:05.295+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:32:05.295+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:32:05.307+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:32:05.307+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:32:05.334+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:33:01.176+0530] {processor.py:186} INFO - Started process (PID=134196) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:01.177+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:33:01.178+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:01.178+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:01.185+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:01.196+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:01.196+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:33:01.209+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:01.209+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:33:01.228+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.057 seconds
+[2024-09-09T21:33:54.949+0530] {processor.py:186} INFO - Started process (PID=134259) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:54.952+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:33:54.953+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:54.952+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:54.959+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:33:54.969+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:54.968+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:33:54.984+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:33:54.983+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:33:55.009+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
+[2024-09-09T21:34:49.535+0530] {processor.py:186} INFO - Started process (PID=134322) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:34:49.537+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:34:49.539+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:34:49.538+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:34:49.547+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:34:49.557+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:34:49.557+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:34:49.570+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:34:49.570+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:34:49.593+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.063 seconds
+[2024-09-09T21:35:45.446+0530] {processor.py:186} INFO - Started process (PID=134412) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:35:45.448+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:35:45.449+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:35:45.449+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:35:45.455+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:35:45.468+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:35:45.467+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:35:45.480+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:35:45.480+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:35:45.503+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T21:36:39.149+0530] {processor.py:186} INFO - Started process (PID=134482) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:36:39.151+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:36:39.153+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:36:39.152+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:36:39.161+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:36:39.171+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:36:39.171+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:36:39.184+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:36:39.184+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:36:39.213+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T21:37:34.194+0530] {processor.py:186} INFO - Started process (PID=134545) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:37:34.199+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:37:34.200+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:37:34.200+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:37:34.208+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:37:34.217+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:37:34.217+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:37:34.229+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:37:34.228+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:37:34.251+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.062 seconds
+[2024-09-09T21:38:29.244+0530] {processor.py:186} INFO - Started process (PID=134607) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:38:29.249+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:38:29.250+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:38:29.250+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:38:29.256+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:38:29.266+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:38:29.266+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:38:29.278+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:38:29.278+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:38:29.301+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T21:39:23.582+0530] {processor.py:186} INFO - Started process (PID=134670) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:39:23.592+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:39:23.594+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:39:23.594+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:39:23.602+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:39:23.611+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:39:23.611+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:39:23.623+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:39:23.623+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:39:23.647+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.070 seconds
+[2024-09-09T21:40:16.370+0530] {processor.py:186} INFO - Started process (PID=134731) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:40:16.375+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:40:16.377+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:40:16.376+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:40:16.384+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:40:16.393+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:40:16.393+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:40:16.406+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:40:16.405+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:40:16.429+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.063 seconds
+[2024-09-09T21:41:10.678+0530] {processor.py:186} INFO - Started process (PID=134821) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:41:10.679+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:41:10.680+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:41:10.680+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:41:10.686+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:41:10.696+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:41:10.695+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:41:10.708+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:41:10.708+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:41:10.729+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.056 seconds
+[2024-09-09T21:42:03.555+0530] {processor.py:186} INFO - Started process (PID=134891) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:03.557+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:42:03.558+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:03.558+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:03.565+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:03.574+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:03.574+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:42:03.587+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:03.586+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:42:03.609+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:42:54.382+0530] {processor.py:186} INFO - Started process (PID=134951) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:54.384+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:42:54.386+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:54.385+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:54.392+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:42:54.401+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:54.401+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:42:54.415+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:42:54.415+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:42:54.439+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T21:43:46.443+0530] {processor.py:186} INFO - Started process (PID=135012) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:43:46.448+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:43:46.450+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:43:46.450+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:43:46.463+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:43:46.477+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:43:46.477+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:43:46.489+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:43:46.488+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:43:46.509+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.081 seconds
+[2024-09-09T21:44:40.262+0530] {processor.py:186} INFO - Started process (PID=135073) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:44:40.263+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:44:40.265+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:44:40.264+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:44:40.271+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:44:40.280+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:44:40.280+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:44:40.293+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:44:40.293+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:44:40.315+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.057 seconds
+[2024-09-09T21:45:34.585+0530] {processor.py:186} INFO - Started process (PID=135149) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:45:34.587+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:45:34.588+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:45:34.588+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:45:34.595+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:45:34.604+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:45:34.604+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:45:34.616+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:45:34.616+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:45:34.639+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:46:27.137+0530] {processor.py:186} INFO - Started process (PID=135226) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:46:27.138+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:46:27.139+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:46:27.139+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:46:27.147+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:46:27.156+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:46:27.156+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:46:27.169+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:46:27.169+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:46:27.191+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:47:24.265+0530] {processor.py:186} INFO - Started process (PID=135296) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:47:24.267+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:47:24.268+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:47:24.268+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:47:24.277+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:47:24.288+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:47:24.288+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:47:24.302+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:47:24.302+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:47:24.326+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T21:48:13.637+0530] {processor.py:186} INFO - Started process (PID=135356) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:48:13.641+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:48:13.643+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:48:13.642+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:48:13.652+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:48:13.664+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:48:13.663+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:48:13.678+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:48:13.678+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:48:13.699+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.067 seconds
+[2024-09-09T21:49:05.277+0530] {processor.py:186} INFO - Started process (PID=135418) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:05.279+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:49:05.280+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:05.279+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:05.287+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:05.297+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:05.297+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:49:05.309+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:05.309+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:49:05.333+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.061 seconds
+[2024-09-09T21:49:59.312+0530] {processor.py:186} INFO - Started process (PID=135480) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:59.316+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:49:59.318+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:59.317+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:59.327+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:49:59.337+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:59.336+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:49:59.348+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:49:59.348+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:49:59.372+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.071 seconds
+[2024-09-09T21:50:56.028+0530] {processor.py:186} INFO - Started process (PID=135571) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:50:56.030+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:50:56.031+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:50:56.031+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:50:56.038+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:50:56.047+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:50:56.047+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:50:56.059+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:50:56.059+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:50:56.083+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.059 seconds
+[2024-09-09T21:51:48.727+0530] {processor.py:186} INFO - Started process (PID=135632) to work on /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:51:48.731+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaq_dag.py for tasks to queue
+[2024-09-09T21:51:48.732+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:51:48.732+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:51:48.739+0530] {processor.py:925} INFO - DAG(s) 'aaq_v5' retrieved from /home/sst7260/airflow_projects/project1/dags/aaq_dag.py
+[2024-09-09T21:51:48.748+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:51:48.748+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-09T21:51:48.760+0530] {logging_mixin.py:190} INFO - [2024-09-09T21:51:48.760+0530] {dag.py:4156} INFO - Setting next_dagrun for aaq_v5 to 2024-09-09 00:00:00+00:00, run_after=2024-09-10 00:00:00+00:00
+[2024-09-09T21:51:48.786+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaq_dag.py took 0.064 seconds
