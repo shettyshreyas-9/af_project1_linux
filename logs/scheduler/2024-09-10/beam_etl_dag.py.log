@@ -3523,3 +3523,995 @@ NameError: name 'PythonOperator' is not defined
 [2024-09-10T17:24:54.155+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:24:54.155+0530] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-10T17:24:54.168+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:24:54.167+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
 [2024-09-10T17:24:54.204+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.499 seconds
+[2024-09-10T17:25:02.046+0530] {processor.py:186} INFO - Started process (PID=214431) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:02.048+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:25:02.050+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:02.050+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:03.028+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:03.028+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:25:03.443+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:03.456+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:03.455+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:03.465+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:03.464+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:25:03.490+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.449 seconds
+[2024-09-10T17:25:26.644+0530] {processor.py:186} INFO - Started process (PID=214570) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:26.645+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:25:26.646+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:26.645+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:27.260+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:27.260+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:25:27.686+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:27.708+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:27.707+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:27.732+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:27.731+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:25:27.793+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.155 seconds
+[2024-09-10T17:25:37.950+0530] {processor.py:186} INFO - Started process (PID=214649) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:37.951+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:25:37.953+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:37.952+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:38.741+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:38.740+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:25:39.165+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:39.188+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:39.187+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:39.208+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:39.207+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:25:39.244+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.300 seconds
+[2024-09-10T17:25:58.847+0530] {processor.py:186} INFO - Started process (PID=214757) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:58.849+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:25:58.854+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:58.852+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:59.438+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:59.437+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:25:59.737+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:25:59.746+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:59.746+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:59.755+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:59.755+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:25:59.778+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.939 seconds
+[2024-09-10T17:26:11.954+0530] {processor.py:186} INFO - Started process (PID=214838) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:11.955+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:26:11.956+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:11.956+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:12.549+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:12.549+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:26:12.821+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:12.831+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:12.831+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:12.841+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:12.841+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:26:12.865+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.919 seconds
+[2024-09-10T17:26:30.060+0530] {processor.py:186} INFO - Started process (PID=214939) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:30.061+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:26:30.063+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:30.063+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:30.617+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:30.617+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:26:30.891+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:30.903+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:30.902+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:30.914+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:30.913+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:26:30.935+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.882 seconds
+[2024-09-10T17:26:43.637+0530] {processor.py:186} INFO - Started process (PID=214995) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:43.638+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:26:43.639+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:43.639+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:44.160+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:44.159+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:26:44.432+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:26:44.440+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:44.440+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:44.449+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:44.449+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:26:44.474+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.843 seconds
+[2024-09-10T17:27:02.149+0530] {processor.py:186} INFO - Started process (PID=215159) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:02.152+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:27:02.154+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:02.154+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:04.679+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:04.678+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:27:06.166+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:06.231+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:06.230+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:06.283+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:06.283+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:27:06.494+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 4.361 seconds
+[2024-09-10T17:27:22.887+0530] {processor.py:186} INFO - Started process (PID=215282) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:22.889+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:27:22.890+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:22.890+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:23.671+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:23.670+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:27:24.321+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:24.444+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:24.443+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:24.458+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:24.457+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:27:24.497+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.618 seconds
+[2024-09-10T17:27:43.667+0530] {processor.py:186} INFO - Started process (PID=215351) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:43.674+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:27:43.677+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:43.677+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:44.594+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:44.593+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:27:44.962+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:27:44.977+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:44.977+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:44.990+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:44.990+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:27:45.013+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.352 seconds
+[2024-09-10T17:28:06.510+0530] {processor.py:186} INFO - Started process (PID=215407) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:06.513+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:28:06.514+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:06.514+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:07.387+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:07.382+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:28:07.779+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:07.790+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:07.790+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:07.803+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:07.803+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:28:07.826+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.330 seconds
+[2024-09-10T17:28:22.640+0530] {processor.py:186} INFO - Started process (PID=215449) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:22.642+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:28:22.643+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:22.643+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:23.230+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:23.229+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:28:23.555+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:23.565+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:23.564+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:23.580+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:23.580+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:28:23.603+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.971 seconds
+[2024-09-10T17:28:41.482+0530] {processor.py:186} INFO - Started process (PID=215497) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:41.483+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:28:41.486+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:41.484+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:42.137+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.135+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:28:42.546+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:42.564+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.563+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:42.575+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.575+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:28:42.605+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.131 seconds
+[2024-09-10T17:28:59.635+0530] {processor.py:186} INFO - Started process (PID=215556) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:28:59.638+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:28:59.641+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:59.640+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:01.044+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:01.043+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:29:01.429+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:01.716+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:01.715+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:01.739+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:01.737+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:29:01.776+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 2.154 seconds
+[2024-09-10T17:29:14.855+0530] {processor.py:186} INFO - Started process (PID=215598) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:14.856+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:29:14.857+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:14.857+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:15.582+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:15.579+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:29:16.255+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:16.270+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:16.269+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:16.284+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:16.284+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:29:16.325+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.477 seconds
+[2024-09-10T17:29:34.564+0530] {processor.py:186} INFO - Started process (PID=215647) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:34.566+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:29:34.567+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:34.567+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:35.161+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:35.159+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:29:35.495+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:35.504+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:35.504+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:35.519+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:35.518+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:29:35.540+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.983 seconds
+[2024-09-10T17:29:47.965+0530] {processor.py:186} INFO - Started process (PID=215731) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:47.966+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:29:47.967+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:47.967+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:48.649+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:48.648+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:29:48.963+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:29:48.977+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:48.977+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:48.989+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:48.989+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:29:49.018+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.059 seconds
+[2024-09-10T17:30:06.947+0530] {processor.py:186} INFO - Started process (PID=215888) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:06.949+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:30:06.953+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:06.953+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:07.911+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:07.910+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:30:08.228+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:08.475+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:08.474+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:08.496+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:08.495+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:30:08.532+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.594 seconds
+[2024-09-10T17:30:23.877+0530] {processor.py:186} INFO - Started process (PID=215963) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:23.879+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:30:23.880+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:23.880+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:24.487+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:24.487+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:30:25.049+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:25.068+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:25.067+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:25.081+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:25.080+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:30:25.111+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.240 seconds
+[2024-09-10T17:30:41.866+0530] {processor.py:186} INFO - Started process (PID=216012) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:41.867+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:30:41.868+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:41.868+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:42.418+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:42.418+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:30:42.701+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:42.716+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:42.716+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:42.727+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:42.727+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:30:42.747+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.886 seconds
+[2024-09-10T17:30:58.114+0530] {processor.py:186} INFO - Started process (PID=216051) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:58.115+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:30:58.117+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:58.116+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:59.085+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.084+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:30:59.421+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:30:59.432+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.430+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:59.447+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.446+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:30:59.469+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.362 seconds
+[2024-09-10T17:31:14.615+0530] {processor.py:186} INFO - Started process (PID=216096) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:14.617+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:31:14.618+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:14.617+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:15.325+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:15.325+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:31:15.630+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:15.640+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:15.640+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:31:15.658+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:15.658+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:31:15.687+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.078 seconds
+[2024-09-10T17:31:30.098+0530] {processor.py:186} INFO - Started process (PID=216137) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:30.100+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:31:30.101+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:30.101+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:30.870+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:30.869+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:31:31.113+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:31.122+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:31.121+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:31:31.131+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:31.130+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:31:31.154+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 1.060 seconds
+[2024-09-10T17:31:45.912+0530] {processor.py:186} INFO - Started process (PID=216175) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:45.914+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:31:45.915+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:45.915+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:46.334+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:46.333+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:31:46.554+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:31:46.561+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:46.561+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:31:46.568+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:46.568+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:31:46.587+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.679 seconds
+[2024-09-10T17:32:02.291+0530] {processor.py:186} INFO - Started process (PID=216224) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:02.291+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:32:02.292+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:02.292+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:02.682+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:02.682+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:32:02.862+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:02.868+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:02.868+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:32:02.875+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:02.875+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:32:02.894+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.607 seconds
+[2024-09-10T17:32:45.294+0530] {processor.py:186} INFO - Started process (PID=216353) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:45.295+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:32:45.296+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:45.296+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:45.662+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:45.662+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:32:45.842+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:45.849+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:45.849+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:32:45.857+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:45.857+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:32:45.877+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.587 seconds
+[2024-09-10T17:32:59.569+0530] {processor.py:186} INFO - Started process (PID=216389) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:59.570+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:32:59.571+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:59.571+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:32:59.946+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:59.945+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:33:00.150+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:00.157+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:00.156+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:00.163+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:00.163+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:33:00.182+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.618 seconds
+[2024-09-10T17:33:17.385+0530] {processor.py:186} INFO - Started process (PID=216438) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:17.386+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:33:17.387+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:17.387+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:17.776+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:17.776+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:33:17.961+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:17.967+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:17.967+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:17.973+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:17.973+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:33:17.990+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.609 seconds
+[2024-09-10T17:33:31.087+0530] {processor.py:186} INFO - Started process (PID=216474) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:31.089+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:33:31.090+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:31.090+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:31.447+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:31.447+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:33:31.628+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:31.638+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:31.638+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:31.645+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:31.645+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:33:31.664+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.581 seconds
+[2024-09-10T17:33:48.129+0530] {processor.py:186} INFO - Started process (PID=216521) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:48.130+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:33:48.131+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:48.130+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:48.493+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:48.492+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:33:48.671+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:33:48.677+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:48.677+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:48.684+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:48.683+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:33:48.705+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.580 seconds
+[2024-09-10T17:34:04.156+0530] {processor.py:186} INFO - Started process (PID=216579) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:04.158+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:34:04.159+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:04.158+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:04.513+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:04.512+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:34:04.694+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:04.701+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:04.701+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:34:04.707+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:04.707+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:34:04.725+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.573 seconds
+[2024-09-10T17:34:34.941+0530] {processor.py:186} INFO - Started process (PID=216657) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:34.943+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:34:34.944+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:34.943+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:35.288+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:35.287+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:34:35.462+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:35.468+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:35.468+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:34:35.475+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:35.475+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:34:35.494+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.557 seconds
+[2024-09-10T17:34:47.553+0530] {processor.py:186} INFO - Started process (PID=216690) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:47.555+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:34:47.556+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:47.556+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:47.903+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:47.902+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:34:48.079+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:34:48.086+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:48.086+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:34:48.092+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:48.092+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:34:48.110+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.562 seconds
+[2024-09-10T17:35:19.788+0530] {processor.py:186} INFO - Started process (PID=216768) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:19.790+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:35:19.797+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:19.794+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:21.631+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:21.628+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:35:22.220+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:22.235+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:22.235+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:35:22.249+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:22.248+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:35:22.275+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 2.510 seconds
+[2024-09-10T17:35:39.779+0530] {processor.py:186} INFO - Started process (PID=216806) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:39.783+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:35:39.786+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:39.785+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:42.474+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:42.473+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:35:43.273+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:43.289+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:43.288+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:35:43.304+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:43.303+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:35:43.339+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 3.595 seconds
+[2024-09-10T17:35:59.388+0530] {processor.py:186} INFO - Started process (PID=216857) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:59.389+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:35:59.390+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:59.389+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:35:59.900+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:59.900+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:36:00.186+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:00.194+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:00.193+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:00.200+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:00.200+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:36:00.219+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.836 seconds
+[2024-09-10T17:36:20.844+0530] {processor.py:186} INFO - Started process (PID=216911) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:20.845+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:36:20.846+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:20.846+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:21.224+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:21.224+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:36:21.428+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:21.437+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:21.437+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:21.445+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:21.445+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:36:21.463+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.625 seconds
+[2024-09-10T17:36:34.451+0530] {processor.py:186} INFO - Started process (PID=216952) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:34.453+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:36:34.454+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:34.454+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:34.844+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:34.843+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:36:35.065+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:35.074+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:35.073+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:35.082+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:35.082+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:36:35.103+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.656 seconds
+[2024-09-10T17:36:51.686+0530] {processor.py:186} INFO - Started process (PID=216994) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:51.687+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:36:51.688+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:51.688+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:52.150+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:52.149+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:36:52.379+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:36:52.386+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:52.386+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:52.392+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:52.392+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:36:52.412+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.731 seconds
+[2024-09-10T17:37:22.697+0530] {processor.py:186} INFO - Started process (PID=217071) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:22.698+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:37:22.700+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:22.699+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:23.115+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:23.115+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:37:23.319+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:23.326+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:23.325+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:37:23.333+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:23.333+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:37:23.352+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.660 seconds
+[2024-09-10T17:37:33.999+0530] {processor.py:186} INFO - Started process (PID=217129) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:34.000+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:37:34.002+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:34.001+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:34.392+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:34.392+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:37:34.611+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:34.617+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:34.617+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:37:34.624+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:34.624+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:37:34.643+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.648 seconds
+[2024-09-10T17:37:53.610+0530] {processor.py:186} INFO - Started process (PID=217182) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:53.610+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:37:53.611+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:53.611+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:54.000+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:54.000+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:37:54.201+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:37:54.207+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:54.207+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:37:54.213+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:54.213+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:37:54.230+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.626 seconds
+[2024-09-10T17:38:05.069+0530] {processor.py:186} INFO - Started process (PID=217213) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:05.069+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:38:05.070+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:05.070+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:05.472+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:05.472+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:38:05.669+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:05.677+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:05.677+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:05.683+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:05.683+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:38:05.703+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.639 seconds
+[2024-09-10T17:38:25.491+0530] {processor.py:186} INFO - Started process (PID=217269) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:25.492+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:38:25.493+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:25.493+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:25.896+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:25.895+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:38:26.102+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:26.112+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:26.112+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:26.119+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:26.119+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:38:26.138+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.653 seconds
+[2024-09-10T17:38:36.118+0530] {processor.py:186} INFO - Started process (PID=217298) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:36.119+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:38:36.120+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:36.119+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:36.508+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:36.507+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:38:36.700+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:36.706+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:36.706+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:36.712+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:36.712+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:38:36.731+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.618 seconds
+[2024-09-10T17:38:57.442+0530] {processor.py:186} INFO - Started process (PID=217350) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:57.443+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:38:57.445+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:57.444+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:57.894+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:57.893+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:38:58.113+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:38:58.120+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:58.120+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:58.126+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:58.126+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:38:58.143+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.707 seconds
+[2024-09-10T17:39:07.182+0530] {processor.py:186} INFO - Started process (PID=217402) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:07.184+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:39:07.185+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:07.185+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:07.565+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:07.564+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:39:07.761+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:07.770+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:07.769+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:39:07.782+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:07.782+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:39:07.802+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.624 seconds
+[2024-09-10T17:39:38.217+0530] {processor.py:186} INFO - Started process (PID=217473) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:38.218+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:39:38.219+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:38.219+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:38.610+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:38.610+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:39:38.821+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:38.828+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:38.828+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:39:38.835+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:38.834+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:39:38.853+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.641 seconds
+[2024-09-10T17:39:57.271+0530] {processor.py:186} INFO - Started process (PID=217525) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:57.271+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:39:57.272+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:57.272+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:57.668+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:57.668+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:39:57.856+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:39:57.863+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:57.863+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:39:57.869+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:57.869+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:39:57.883+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.617 seconds
+[2024-09-10T17:40:09.271+0530] {processor.py:186} INFO - Started process (PID=217556) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:09.272+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:40:09.273+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:09.273+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:09.662+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:09.662+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:40:09.870+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:09.883+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:09.883+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:40:09.894+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:09.893+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:40:09.913+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.647 seconds
+[2024-09-10T17:40:29.411+0530] {processor.py:186} INFO - Started process (PID=217610) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:29.413+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:40:29.414+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:29.414+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:29.806+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:29.806+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:40:30.008+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:40:30.015+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:30.015+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:40:30.021+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:30.021+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:40:30.041+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.638 seconds
+[2024-09-10T17:41:01.469+0530] {processor.py:186} INFO - Started process (PID=217686) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:01.471+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:41:01.472+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:01.472+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:01.898+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:01.897+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:41:02.109+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:02.115+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:02.115+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:02.122+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:02.122+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:41:02.140+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.676 seconds
+[2024-09-10T17:41:07.826+0530] {processor.py:186} INFO - Started process (PID=217712) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:07.828+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:41:07.830+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:07.829+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:08.204+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:08.204+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:41:08.399+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:08.407+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:08.407+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:08.424+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:08.424+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:41:08.441+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.619 seconds
+[2024-09-10T17:41:35.196+0530] {processor.py:186} INFO - Started process (PID=217774) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:35.198+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:41:35.199+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:35.199+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:35.599+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:35.599+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:41:35.807+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:41:35.818+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:35.818+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:35.832+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:35.832+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:41:35.852+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.661 seconds
+[2024-09-10T17:42:07.151+0530] {processor.py:186} INFO - Started process (PID=217851) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:07.153+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:42:07.154+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:07.154+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:07.548+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:07.548+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:42:07.737+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:07.744+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:07.744+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:07.752+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:07.752+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:42:07.778+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.631 seconds
+[2024-09-10T17:42:09.728+0530] {processor.py:186} INFO - Started process (PID=217863) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:09.729+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:42:09.731+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:09.730+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:10.134+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:10.134+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:42:10.329+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:10.339+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:10.338+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:10.351+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:10.351+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:42:10.372+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.649 seconds
+[2024-09-10T17:42:41.588+0530] {processor.py:186} INFO - Started process (PID=217969) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:41.589+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:42:41.590+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:41.590+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:41.989+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:41.989+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:42:42.190+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:42:42.202+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:42.201+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:42.211+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:42.211+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:42:42.235+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.651 seconds
+[2024-09-10T17:43:05.910+0530] {processor.py:186} INFO - Started process (PID=218034) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:05.912+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:43:05.914+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:05.913+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:06.287+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.287+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:43:06.504+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:06.516+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.515+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:43:06.525+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.525+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:43:06.550+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.646 seconds
+[2024-09-10T17:43:12.512+0530] {processor.py:186} INFO - Started process (PID=218056) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:12.513+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:43:12.514+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:12.514+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:12.913+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:12.912+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:43:13.111+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:43:13.118+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:13.118+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:43:13.124+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:13.124+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:43:13.144+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.638 seconds
+[2024-09-10T17:44:04.736+0530] {processor.py:186} INFO - Started process (PID=218197) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:04.738+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:44:04.739+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:04.739+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:05.149+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:05.149+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:44:05.345+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:05.354+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:05.353+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:05.363+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:05.363+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:44:05.382+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.652 seconds
+[2024-09-10T17:44:09.879+0530] {processor.py:186} INFO - Started process (PID=218213) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:09.881+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:44:09.882+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:09.882+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:10.271+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:10.271+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:44:10.463+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:10.471+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:10.471+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:10.481+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:10.481+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:44:10.500+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.625 seconds
+[2024-09-10T17:44:35.705+0530] {processor.py:186} INFO - Started process (PID=218281) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:35.706+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:44:35.707+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:35.707+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:36.087+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:36.087+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:44:36.276+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:36.285+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:36.284+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:36.293+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:36.292+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:44:36.317+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.618 seconds
+[2024-09-10T17:44:42.733+0530] {processor.py:186} INFO - Started process (PID=218301) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:42.733+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:44:42.734+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:42.734+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:43.141+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:43.141+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:44:43.333+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:44:43.339+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:43.339+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:43.345+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:43.344+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:44:43.364+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.638 seconds
+[2024-09-10T17:45:14.342+0530] {processor.py:186} INFO - Started process (PID=218380) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:14.343+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:45:14.344+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:14.344+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:14.716+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:14.715+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:45:14.921+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:14.929+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:14.929+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:14.937+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:14.937+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:45:14.958+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.622 seconds
+[2024-09-10T17:45:36.175+0530] {processor.py:186} INFO - Started process (PID=218431) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:36.177+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:45:36.180+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:36.180+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:36.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:36.579+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:45:36.804+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:36.811+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:36.810+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:36.816+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:36.816+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:45:36.836+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.673 seconds
+[2024-09-10T17:45:46.603+0530] {processor.py:186} INFO - Started process (PID=218465) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:46.604+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:45:46.605+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:46.605+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:47.026+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:47.026+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:45:47.249+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:45:47.256+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:47.255+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:47.261+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:47.261+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:45:47.276+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.678 seconds
+[2024-09-10T17:46:18.139+0530] {processor.py:186} INFO - Started process (PID=218544) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:18.141+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:46:18.142+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:18.141+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:18.514+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:18.513+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:46:18.712+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:18.718+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:18.718+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:46:18.725+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:18.725+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:46:18.745+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.611 seconds
+[2024-09-10T17:46:34.741+0530] {processor.py:186} INFO - Started process (PID=218587) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:34.750+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:46:34.751+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:34.751+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:35.147+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:35.146+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:46:35.342+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:35.350+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:35.350+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:46:35.356+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:35.356+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:46:35.370+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.634 seconds
+[2024-09-10T17:46:50.628+0530] {processor.py:186} INFO - Started process (PID=218626) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:50.630+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:46:50.631+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:50.630+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:51.085+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:51.085+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:46:51.296+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:46:51.304+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:51.304+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:46:51.311+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:51.311+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:46:51.327+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.703 seconds
+[2024-09-10T17:47:21.860+0530] {processor.py:186} INFO - Started process (PID=218703) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:21.861+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:47:21.862+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:21.862+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:22.250+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:22.249+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:47:22.459+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:22.465+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:22.465+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:47:22.472+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:22.472+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:47:22.494+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.639 seconds
+[2024-09-10T17:47:36.515+0530] {processor.py:186} INFO - Started process (PID=218774) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:36.516+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:47:36.518+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:36.517+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:36.942+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:36.941+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:47:37.139+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:47:37.145+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:37.145+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:47:37.151+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:37.151+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:47:37.170+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.660 seconds
+[2024-09-10T17:48:07.527+0530] {processor.py:186} INFO - Started process (PID=218846) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:07.528+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:48:07.529+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:07.529+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:08.012+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:08.012+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:48:08.118+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:08.129+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:08.129+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:48:08.136+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:08.136+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:48:08.155+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.633 seconds
+[2024-09-10T17:48:20.360+0530] {processor.py:186} INFO - Started process (PID=218886) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:20.361+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:48:20.362+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:20.362+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:20.745+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:20.744+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:48:20.944+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:20.952+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:20.952+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:48:20.960+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:20.959+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:48:20.977+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.622 seconds
+[2024-09-10T17:48:38.564+0530] {processor.py:186} INFO - Started process (PID=218929) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:38.565+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:48:38.566+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:38.566+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:38.960+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:38.960+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:48:39.154+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:48:39.162+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:39.161+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:48:39.168+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:39.168+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:48:39.185+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.625 seconds
+[2024-09-10T17:49:09.488+0530] {processor.py:186} INFO - Started process (PID=219025) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:09.497+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:49:09.498+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:09.498+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:09.888+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:09.887+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:49:10.075+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:10.082+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:10.082+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:49:10.089+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:10.089+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:49:10.115+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.634 seconds
+[2024-09-10T17:49:20.754+0530] {processor.py:186} INFO - Started process (PID=219057) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:20.755+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:49:20.757+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:20.757+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:21.167+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:21.167+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:49:21.355+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:21.362+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:21.361+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:49:21.369+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:21.368+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:49:21.391+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.647 seconds
+[2024-09-10T17:49:52.248+0530] {processor.py:186} INFO - Started process (PID=219133) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:52.250+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:49:52.252+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:52.251+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:52.699+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:52.699+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:49:52.916+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:49:52.928+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:52.927+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:49:52.935+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:52.935+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:49:52.952+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.714 seconds
+[2024-09-10T17:50:09.954+0530] {processor.py:186} INFO - Started process (PID=219177) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:09.954+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:50:09.956+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:09.955+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:10.378+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:10.377+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:50:10.565+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:10.573+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:10.573+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:50:10.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:10.579+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:50:10.604+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.655 seconds
+[2024-09-10T17:50:25.144+0530] {processor.py:186} INFO - Started process (PID=219219) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:25.145+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:50:25.146+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:25.145+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:25.528+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:25.528+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:50:25.742+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:25.749+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:25.748+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:50:25.755+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:25.754+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:50:25.777+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.637 seconds
+[2024-09-10T17:50:41.575+0530] {processor.py:186} INFO - Started process (PID=219261) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:41.576+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:50:41.577+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:41.577+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:42.037+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:42.037+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:50:42.171+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:50:42.179+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:42.178+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:50:42.185+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:42.184+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:50:42.203+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.632 seconds
+[2024-09-10T17:51:23.146+0530] {processor.py:186} INFO - Started process (PID=219365) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:23.156+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:51:23.158+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:23.157+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:23.570+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:23.570+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:51:23.785+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:23.795+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:23.794+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:51:23.802+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:23.801+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:51:23.831+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.689 seconds
+[2024-09-10T17:51:40.035+0530] {processor.py:186} INFO - Started process (PID=219413) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:40.036+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:51:40.037+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:40.037+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:40.414+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:40.413+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:51:40.627+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:51:40.635+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:40.634+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:51:40.642+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:40.641+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:51:40.661+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.632 seconds
+[2024-09-10T17:52:11.194+0530] {processor.py:186} INFO - Started process (PID=219492) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:11.197+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:52:11.198+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:11.198+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:11.629+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:11.629+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:52:11.750+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:11.756+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:11.756+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:11.766+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:11.765+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:52:11.784+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.593 seconds
+[2024-09-10T17:52:22.325+0530] {processor.py:186} INFO - Started process (PID=219522) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:22.326+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:52:22.336+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:22.335+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:22.806+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:22.806+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:52:23.008+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:23.016+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:23.016+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:23.023+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:23.023+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:52:23.042+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.724 seconds
+[2024-09-10T17:52:53.988+0530] {processor.py:186} INFO - Started process (PID=219627) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:53.989+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:52:53.991+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:53.990+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:54.362+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:54.362+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:52:54.569+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:52:54.576+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:54.576+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:54.582+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:54.582+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:52:54.604+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.620 seconds
+[2024-09-10T17:53:10.221+0530] {processor.py:186} INFO - Started process (PID=219669) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:10.222+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:53:10.223+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:10.223+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:10.738+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:10.737+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:53:10.867+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:10.876+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:10.875+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:53:10.882+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:10.882+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:53:10.902+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.687 seconds
+[2024-09-10T17:53:26.716+0530] {processor.py:186} INFO - Started process (PID=219708) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:26.725+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:53:26.726+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:26.726+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:27.135+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:27.135+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:53:27.357+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:53:27.365+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:27.365+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:53:27.373+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:27.373+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:53:27.392+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.680 seconds
+[2024-09-10T17:54:09.925+0530] {processor.py:186} INFO - Started process (PID=219836) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:09.926+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:54:09.928+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:09.927+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:10.320+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:10.319+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:54:10.537+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:10.543+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:10.543+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:54:10.549+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:10.549+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:54:10.568+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.648 seconds
+[2024-09-10T17:54:26.402+0530] {processor.py:186} INFO - Started process (PID=219875) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:26.403+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:54:26.405+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:26.404+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:26.951+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:26.951+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:54:27.151+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:27.158+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:27.158+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:54:27.167+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:27.167+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:54:27.184+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.790 seconds
+[2024-09-10T17:54:40.745+0530] {processor.py:186} INFO - Started process (PID=219913) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:40.745+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:54:40.746+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:40.746+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:41.196+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:41.195+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:54:41.319+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:54:41.331+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:41.331+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:54:41.339+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:41.339+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:54:41.357+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.616 seconds
+[2024-09-10T17:55:13.961+0530] {processor.py:186} INFO - Started process (PID=219998) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:13.963+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:55:13.964+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:13.964+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:14.406+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:14.405+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:55:14.528+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:14.536+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:14.536+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:14.543+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:14.543+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:55:14.567+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.610 seconds
+[2024-09-10T17:55:23.715+0530] {processor.py:186} INFO - Started process (PID=220024) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:23.716+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:55:23.717+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:23.717+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:24.167+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:24.167+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:55:24.453+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:24.461+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:24.460+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:24.469+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:24.469+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:55:24.489+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.778 seconds
+[2024-09-10T17:55:46.619+0530] {processor.py:186} INFO - Started process (PID=220086) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:46.620+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:55:46.621+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:46.621+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:47.009+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:47.009+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:55:47.214+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:55:47.221+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:47.221+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:47.227+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:47.227+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:55:47.245+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.633 seconds
+[2024-09-10T17:56:17.410+0530] {processor.py:186} INFO - Started process (PID=220162) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:17.412+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:56:17.413+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:17.412+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:17.866+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:17.866+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:56:17.974+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:17.981+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:17.980+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:56:17.989+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:17.989+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:56:18.006+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.601 seconds
+[2024-09-10T17:56:21.544+0530] {processor.py:186} INFO - Started process (PID=220178) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:21.545+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:56:21.546+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:21.546+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:21.937+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:21.936+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:56:22.141+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:22.148+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:22.148+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:56:22.155+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:22.154+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:56:22.171+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.632 seconds
+[2024-09-10T17:56:48.984+0530] {processor.py:186} INFO - Started process (PID=220247) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:48.986+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:56:48.987+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:48.986+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:49.451+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:49.451+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:56:49.570+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:56:49.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:49.579+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:56:49.588+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:49.588+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:56:49.606+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.626 seconds
+[2024-09-10T17:57:19.902+0530] {processor.py:186} INFO - Started process (PID=220317) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:19.904+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:57:19.905+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:19.905+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:20.358+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:20.358+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:57:20.469+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:20.476+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:20.476+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:20.482+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:20.482+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:57:20.499+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.602 seconds
+[2024-09-10T17:57:22.555+0530] {processor.py:186} INFO - Started process (PID=220329) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:22.556+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:57:22.557+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:22.556+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:22.974+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:22.973+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:57:23.181+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:23.190+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:23.189+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:23.197+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:23.196+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:57:23.211+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.661 seconds
+[2024-09-10T17:57:51.420+0530] {processor.py:186} INFO - Started process (PID=220432) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:51.421+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:57:51.422+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:51.422+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:51.924+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:51.924+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:57:52.046+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:52.056+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:52.055+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:52.064+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:52.064+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:57:52.080+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.665 seconds
+[2024-09-10T17:57:54.107+0530] {processor.py:186} INFO - Started process (PID=220445) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:54.107+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:57:54.108+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:54.108+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:54.532+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:54.532+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:57:54.732+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:57:54.739+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:54.739+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:54.745+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:54.745+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:57:54.766+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.664 seconds
+[2024-09-10T17:58:22.362+0530] {processor.py:186} INFO - Started process (PID=220516) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:22.364+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:58:22.366+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:22.366+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:22.761+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:22.760+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:58:22.963+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:22.972+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:22.972+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:58:22.979+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:22.979+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:58:22.997+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.642 seconds
+[2024-09-10T17:58:54.156+0530] {processor.py:186} INFO - Started process (PID=220596) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:54.157+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:58:54.158+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:54.157+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:54.561+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:54.561+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:58:54.752+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:58:54.770+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:54.770+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:58:54.777+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:54.777+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:58:54.804+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.653 seconds
+[2024-09-10T17:59:19.717+0530] {processor.py:186} INFO - Started process (PID=220675) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:19.728+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:59:19.731+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:19.730+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:20.177+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:20.176+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:59:20.292+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:20.299+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:20.299+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:59:20.306+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:20.306+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:59:20.322+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.614 seconds
+[2024-09-10T17:59:25.066+0530] {processor.py:186} INFO - Started process (PID=220699) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:25.066+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:59:25.067+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:25.067+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:25.493+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:25.493+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:59:25.697+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:25.705+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:25.704+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:59:25.712+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:25.711+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:59:25.729+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.667 seconds
+[2024-09-10T17:59:57.116+0530] {processor.py:186} INFO - Started process (PID=220772) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:57.117+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T17:59:57.118+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:57.118+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:57.494+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:57.494+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T17:59:57.717+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T17:59:57.724+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:57.724+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:59:57.731+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:57.730+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T17:59:57.747+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.636 seconds
+[2024-09-10T18:00:18.144+0530] {processor.py:186} INFO - Started process (PID=220828) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:18.146+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:00:18.147+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:18.147+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:18.588+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:18.587+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:00:18.699+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:18.706+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:18.706+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:00:18.713+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:18.713+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:00:18.729+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.589 seconds
+[2024-09-10T18:00:28.519+0530] {processor.py:186} INFO - Started process (PID=220857) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:28.521+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:00:28.522+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:28.522+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:28.892+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:28.892+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:00:29.089+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:29.096+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:29.096+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:00:29.103+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:29.103+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:00:29.119+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.604 seconds
+[2024-09-10T18:00:48.913+0530] {processor.py:186} INFO - Started process (PID=220913) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:48.914+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:00:48.916+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:48.915+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:49.350+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:49.350+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:00:49.467+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:00:49.473+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:49.473+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:00:49.479+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:49.479+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:00:49.497+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.592 seconds
+[2024-09-10T18:01:29.157+0530] {processor.py:186} INFO - Started process (PID=221010) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:29.161+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:01:29.163+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:29.163+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:29.554+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:29.554+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:01:29.759+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:29.765+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:29.765+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:01:29.772+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:29.772+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:01:29.796+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.645 seconds
+[2024-09-10T18:01:48.471+0530] {processor.py:186} INFO - Started process (PID=221056) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:48.472+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:01:48.473+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:48.473+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:48.924+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:48.924+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:01:49.038+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:01:49.045+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:49.045+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:01:49.052+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:49.051+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:01:49.073+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.606 seconds
+[2024-09-10T18:02:01.648+0530] {processor.py:186} INFO - Started process (PID=221097) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:01.649+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:02:01.650+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:01.650+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:02.030+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:02.029+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:02:02.212+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:02.226+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:02.226+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:02.232+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:02.232+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:02:02.251+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.607 seconds
+[2024-09-10T18:02:20.017+0530] {processor.py:186} INFO - Started process (PID=221140) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:20.018+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:02:20.020+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:20.019+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:20.459+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:20.458+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:02:20.573+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:20.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:20.579+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:20.588+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:20.588+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:02:20.608+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.598 seconds
+[2024-09-10T18:02:34.487+0530] {processor.py:186} INFO - Started process (PID=221203) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:34.489+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:02:34.490+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:34.490+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:34.896+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:34.895+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:02:35.103+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:35.110+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:35.110+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:35.116+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:35.116+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:02:35.132+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.653 seconds
+[2024-09-10T18:02:53.798+0530] {processor.py:186} INFO - Started process (PID=221254) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:53.799+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:02:53.800+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:53.800+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:54.261+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:54.261+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:02:54.367+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:02:54.374+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:54.374+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:54.380+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:54.380+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:02:54.400+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.607 seconds
+[2024-09-10T18:03:05.394+0530] {processor.py:186} INFO - Started process (PID=221286) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:05.396+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:03:05.396+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:05.396+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:05.805+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:05.805+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:03:06.008+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:06.024+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:06.023+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:06.034+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:06.034+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:03:06.058+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.668 seconds
+[2024-09-10T18:03:26.990+0530] {processor.py:186} INFO - Started process (PID=221342) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:26.999+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:03:27.000+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.000+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:27.469+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.468+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:03:27.604+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:27.612+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.611+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:27.619+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.619+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:03:27.644+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.658 seconds
+[2024-09-10T18:03:37.513+0530] {processor.py:186} INFO - Started process (PID=221371) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:37.514+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:03:37.515+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:37.515+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:37.956+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:37.955+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:03:38.169+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:38.176+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:38.176+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:38.183+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:38.183+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:03:38.200+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.692 seconds
+[2024-09-10T18:03:58.776+0530] {processor.py:186} INFO - Started process (PID=221430) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:58.786+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:03:58.787+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:58.787+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:59.226+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:59.225+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:03:59.334+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:03:59.342+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:59.342+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:59.350+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:59.350+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:03:59.369+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.600 seconds
+[2024-09-10T18:04:08.364+0530] {processor.py:186} INFO - Started process (PID=221473) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:08.365+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:04:08.366+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:08.366+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:08.776+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:08.776+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:04:08.978+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:08.985+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:08.985+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:04:08.992+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:08.992+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:04:09.011+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.652 seconds
+[2024-09-10T18:04:31.456+0530] {processor.py:186} INFO - Started process (PID=221528) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:31.457+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:04:31.458+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:31.458+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:31.912+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:31.912+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:04:32.032+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:04:32.043+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:32.042+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:04:32.053+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:32.052+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:04:32.072+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.621 seconds
+[2024-09-10T18:05:03.526+0530] {processor.py:186} INFO - Started process (PID=221607) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:03.527+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:05:03.528+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:03.528+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:03.970+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:03.969+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:05:04.090+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:04.098+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:04.098+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:04.108+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:04.108+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:05:04.127+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.606 seconds
+[2024-09-10T18:05:08.046+0530] {processor.py:186} INFO - Started process (PID=221624) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:08.047+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:05:08.048+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:08.048+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:08.416+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:08.416+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:05:08.606+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:08.619+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:08.618+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:08.627+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:08.627+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:05:08.651+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.610 seconds
+[2024-09-10T18:05:36.748+0530] {processor.py:186} INFO - Started process (PID=221694) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:36.750+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:05:36.751+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:36.751+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:37.238+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:37.238+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:05:37.372+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:37.379+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:37.379+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:37.388+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:37.388+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:05:37.405+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.662 seconds
+[2024-09-10T18:05:39.038+0530] {processor.py:186} INFO - Started process (PID=221705) to work on /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:39.039+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py for tasks to queue
+[2024-09-10T18:05:39.040+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:39.040+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:39.433+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:39.433+0530] {native_type_compatibility.py:340} INFO - Using Any for unsupported type: typing.Sequence[~T]
+[2024-09-10T18:05:39.639+0530] {processor.py:925} INFO - DAG(s) 'beam_etl_dag_with_credentials' retrieved from /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py
+[2024-09-10T18:05:39.646+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:39.645+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:39.653+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:39.653+0530] {dag.py:4156} INFO - Setting next_dagrun for beam_etl_dag_with_credentials to None, run_after=None
+[2024-09-10T18:05:39.672+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/beam_etl_dag.py took 0.638 seconds

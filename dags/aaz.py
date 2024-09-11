@@ -2,11 +2,13 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 import os
+from airflow.utils.dates import days_ago
+
 
 # Define default arguments for the DAG
 default_args = {
     'owner': 'airflow_SS',
-    'start_date': datetime(2024, 9, 6),
+    'start_date': days_ago(1),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
@@ -26,25 +28,12 @@ with DAG(
         bash_command='python3 ~/airflow_projects/project1/beam_scripts/etl_pipe_1.py',  # Update path accordingly
     )
     
-    run_beam_pipeline1 = BashOperator(
-        task_id='run_beam_pipeline1',
-        bash_command='python3 etl_pipe_1.py',  # Update path accordingly
-    )
 
-    run_beam_pipeline4 = BashOperator(
-        task_id='run_beam_pipeline4',
-        bash_command='python3 /home/sst7260/airflow_projects/project1/beam_scripts/etl_pipe_1.py',  # Update path accordingly
-    )
-
-    # run_beam_pipeline6 = BashOperator(
-    #     task_id='run_beam_pipeline6',
-    #     bash_command='python3 ./dags/etl_pipe_1.py',  # Update path accordingly
+    # run_beam_pipeline4 = BashOperator(
+    #     task_id='run_beam_pipeline4',
+    #     bash_command='python3 /home/sst7260/airflow_projects/project1/beam_scripts/etl_pipe_1.py',  # Update path accordingly
     # )
 
-    # run_beam_pipeline7 = BashOperator(
-    #     task_id='run_beam_pipeline7',
-    #     bash_command='python3 ./beam_scripts/etl_pipe_1.py',  # Update path accordingly
-    # )
 
     # Task to check the working directory
     check_dir_task = BashOperator(

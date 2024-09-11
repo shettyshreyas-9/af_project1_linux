@@ -25,7 +25,7 @@ def run_beam_pipeline(**kwargs):
         '--staging_location=gs://sn_insights_test/staging',
         '--temp_location=gs://sn_insights_test/temp',
         '--region=europe-west2',
-        # '--runner=DataflowRunner'  # Explicitly specify DataflowRunner
+        '--runner=DataflowRunner'  # Explicitly specify DataflowRunner
     ])
 
     # Beam pipeline

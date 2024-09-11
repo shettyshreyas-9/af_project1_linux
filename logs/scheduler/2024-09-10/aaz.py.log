@@ -5158,3 +5158,738 @@ NameError: name 'bash_command' is not defined
 [2024-09-10T17:24:55.294+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:24:55.294+0530] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-10T17:24:55.316+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:24:55.315+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
 [2024-09-10T17:24:55.351+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.093 seconds
+[2024-09-10T17:25:04.615+0530] {processor.py:186} INFO - Started process (PID=214464) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:04.617+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:25:04.621+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:04.620+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:04.629+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:04.658+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:04.657+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:04.697+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:04.696+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:25:04.733+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.127 seconds
+[2024-09-10T17:25:28.529+0530] {processor.py:186} INFO - Started process (PID=214589) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:28.531+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:25:28.533+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:28.532+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:28.538+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:28.552+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:28.552+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:28.568+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:28.568+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:25:28.592+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:25:40.448+0530] {processor.py:186} INFO - Started process (PID=214676) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:40.450+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:25:40.462+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:40.461+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:40.493+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:25:40.549+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:40.548+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:25:40.604+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:25:40.603+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:25:40.638+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.210 seconds
+[2024-09-10T17:26:00.514+0530] {processor.py:186} INFO - Started process (PID=214767) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:00.515+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:26:00.517+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:00.517+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:00.525+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:00.539+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:00.539+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:00.558+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:00.558+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:26:00.581+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.074 seconds
+[2024-09-10T17:26:13.348+0530] {processor.py:186} INFO - Started process (PID=214848) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:13.350+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:26:13.351+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:13.351+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:13.359+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:13.376+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:13.376+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:13.396+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:13.396+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:26:13.418+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.076 seconds
+[2024-09-10T17:26:45.603+0530] {processor.py:186} INFO - Started process (PID=215017) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:45.603+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:26:45.604+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:45.604+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:45.610+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:26:45.625+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:45.625+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:26:45.641+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:26:45.640+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:26:45.664+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.068 seconds
+[2024-09-10T17:27:07.727+0530] {processor.py:186} INFO - Started process (PID=215224) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:07.731+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:27:07.739+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:07.738+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:07.781+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:07.834+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:07.833+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:07.873+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:07.873+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:27:07.979+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.265 seconds
+[2024-09-10T17:27:25.686+0530] {processor.py:186} INFO - Started process (PID=215320) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:25.697+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:27:25.699+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:25.698+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:25.721+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:25.775+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:25.775+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:25.861+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:25.861+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:27:26.015+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.353 seconds
+[2024-09-10T17:27:46.142+0530] {processor.py:186} INFO - Started process (PID=215362) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:46.144+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:27:46.146+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:46.146+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:46.157+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:27:46.174+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:46.174+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:27:46.195+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:27:46.195+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:27:46.232+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.098 seconds
+[2024-09-10T17:28:08.952+0530] {processor.py:186} INFO - Started process (PID=215421) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:08.954+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:28:08.955+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:08.955+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:08.963+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:08.979+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:08.978+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:08.999+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:08.999+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:28:09.020+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.074 seconds
+[2024-09-10T17:28:24.691+0530] {processor.py:186} INFO - Started process (PID=215459) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:24.692+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:28:24.693+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:24.693+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:24.703+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:24.721+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:24.721+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:24.744+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:24.744+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:28:24.771+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.087 seconds
+[2024-09-10T17:28:42.930+0530] {processor.py:186} INFO - Started process (PID=215508) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:42.931+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:28:42.932+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.932+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:42.939+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:28:42.954+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.954+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:28:42.975+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:28:42.974+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:28:43.000+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.076 seconds
+[2024-09-10T17:29:02.936+0530] {processor.py:186} INFO - Started process (PID=215568) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:02.938+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:29:02.939+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:02.938+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:02.947+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:02.972+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:02.972+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:02.995+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:02.995+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:29:03.025+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.096 seconds
+[2024-09-10T17:29:16.435+0530] {processor.py:186} INFO - Started process (PID=215608) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:16.436+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:29:16.438+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:16.438+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:16.448+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:16.473+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:16.473+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:16.497+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:16.497+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:29:16.528+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.103 seconds
+[2024-09-10T17:29:36.630+0530] {processor.py:186} INFO - Started process (PID=215658) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:36.631+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:29:36.632+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:36.632+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:36.639+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:36.655+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:36.655+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:36.675+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:36.675+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:29:36.702+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.082 seconds
+[2024-09-10T17:29:50.135+0530] {processor.py:186} INFO - Started process (PID=215756) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:50.136+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:29:50.138+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:50.137+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:50.145+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:29:50.170+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:50.170+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:29:50.191+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:29:50.191+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:29:50.228+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.101 seconds
+[2024-09-10T17:30:09.650+0530] {processor.py:186} INFO - Started process (PID=215900) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:09.652+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:30:09.653+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:09.653+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:09.662+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:09.707+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:09.707+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:09.735+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:09.735+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:30:09.780+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.140 seconds
+[2024-09-10T17:30:25.527+0530] {processor.py:186} INFO - Started process (PID=215974) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:25.529+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:30:25.531+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:25.531+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:25.542+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:25.560+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:25.560+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:25.578+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:25.578+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:30:25.604+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.110 seconds
+[2024-09-10T17:30:43.809+0530] {processor.py:186} INFO - Started process (PID=216023) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:43.810+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:30:43.812+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:43.811+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:43.819+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:43.835+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:43.834+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:43.855+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:43.855+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:30:43.883+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.080 seconds
+[2024-09-10T17:30:59.871+0530] {processor.py:186} INFO - Started process (PID=216062) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:59.872+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:30:59.873+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.873+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:59.881+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:30:59.899+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.899+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:30:59.919+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:30:59.919+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:30:59.947+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.082 seconds
+[2024-09-10T17:31:16.817+0530] {processor.py:186} INFO - Started process (PID=216107) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:16.819+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:31:16.822+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:16.821+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:16.858+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:16.923+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:16.923+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:31:16.988+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:16.987+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:31:17.027+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.232 seconds
+[2024-09-10T17:31:32.273+0530] {processor.py:186} INFO - Started process (PID=216149) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:32.275+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:31:32.276+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:32.276+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:32.283+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:31:32.303+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:32.302+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:31:32.325+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:31:32.325+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:31:32.348+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.088 seconds
+[2024-09-10T17:32:14.585+0530] {processor.py:186} INFO - Started process (PID=216257) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:14.587+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:32:14.588+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:14.588+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:14.593+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:14.604+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:14.604+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:32:14.618+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:14.617+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:32:14.636+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:32:30.663+0530] {processor.py:186} INFO - Started process (PID=216324) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:30.663+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:32:30.665+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:30.664+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:30.669+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:30.680+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:30.680+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:32:30.692+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:30.692+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:32:30.711+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:32:46.927+0530] {processor.py:186} INFO - Started process (PID=216363) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:46.928+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:32:46.929+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:46.929+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:46.933+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:32:46.946+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:46.946+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:32:46.959+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:32:46.958+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:32:46.978+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:33:19.011+0530] {processor.py:186} INFO - Started process (PID=216449) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:19.012+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:33:19.014+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:19.013+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:19.020+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:19.034+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:19.033+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:19.052+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:19.051+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:33:19.071+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.068 seconds
+[2024-09-10T17:33:32.737+0530] {processor.py:186} INFO - Started process (PID=216484) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:32.737+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:33:32.738+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:32.738+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:32.743+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:33:32.754+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:32.754+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:33:32.767+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:33:32.766+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:33:32.785+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:34:05.792+0530] {processor.py:186} INFO - Started process (PID=216590) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:05.794+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:34:05.795+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:05.794+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:05.800+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:05.812+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:05.812+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:34:05.825+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:05.825+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:34:05.840+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:34:17.777+0530] {processor.py:186} INFO - Started process (PID=216614) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:17.778+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:34:17.778+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:17.778+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:17.783+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:34:17.794+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:17.794+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:34:17.806+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:34:17.806+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:34:17.824+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.051 seconds
+[2024-09-10T17:35:04.256+0530] {processor.py:186} INFO - Started process (PID=216730) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:04.258+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:35:04.259+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:04.258+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:04.264+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:04.280+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:04.280+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:35:04.298+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:04.298+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:35:04.321+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.070 seconds
+[2024-09-10T17:35:22.449+0530] {processor.py:186} INFO - Started process (PID=216779) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:22.451+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:35:22.454+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:22.453+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:22.465+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:22.494+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:22.494+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:35:22.532+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:22.531+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:35:22.561+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.120 seconds
+[2024-09-10T17:35:44.507+0530] {processor.py:186} INFO - Started process (PID=216819) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:44.509+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:35:44.511+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:44.510+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:44.521+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:35:44.543+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:44.542+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:35:44.566+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:35:44.566+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:35:44.595+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.097 seconds
+[2024-09-10T17:36:01.363+0530] {processor.py:186} INFO - Started process (PID=216868) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:01.364+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:36:01.365+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:01.365+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:01.371+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:01.391+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:01.390+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:01.405+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:01.405+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:36:01.431+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.074 seconds
+[2024-09-10T17:36:22.264+0530] {processor.py:186} INFO - Started process (PID=216921) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:22.265+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:36:22.266+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:22.265+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:22.270+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:22.281+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:22.281+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:22.294+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:22.294+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:36:22.312+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:36:36.191+0530] {processor.py:186} INFO - Started process (PID=216962) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:36.192+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:36:36.193+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:36.193+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:36.198+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:36:36.209+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:36.209+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:36:36.221+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:36:36.221+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:36:36.239+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:37:24.461+0530] {processor.py:186} INFO - Started process (PID=217096) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:24.462+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:37:24.463+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:24.463+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:24.468+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:24.480+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:24.480+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:37:24.492+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:24.491+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:37:24.509+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:37:35.758+0530] {processor.py:186} INFO - Started process (PID=217140) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:35.760+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:37:35.761+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:35.761+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:35.767+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:37:35.781+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:35.780+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:37:35.795+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:37:35.795+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:37:35.817+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.068 seconds
+[2024-09-10T17:38:27.229+0530] {processor.py:186} INFO - Started process (PID=217281) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:27.230+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:38:27.231+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:27.231+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:27.237+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:27.251+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:27.251+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:27.264+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:27.263+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:38:27.280+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:38:37.874+0530] {processor.py:186} INFO - Started process (PID=217309) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:37.875+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:38:37.876+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:37.876+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:37.884+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:37.896+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:37.896+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:37.908+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:37.908+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:38:37.929+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.059 seconds
+[2024-09-10T17:38:59.338+0530] {processor.py:186} INFO - Started process (PID=217372) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:59.339+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:38:59.340+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:59.340+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:59.345+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:38:59.356+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:59.356+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:38:59.381+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:38:59.381+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:38:59.402+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:39:39.976+0530] {processor.py:186} INFO - Started process (PID=217483) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:39.977+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:39:39.978+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:39.978+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:39.983+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:39.994+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:39.994+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:39:40.006+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:40.006+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:39:40.026+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:39:59.038+0530] {processor.py:186} INFO - Started process (PID=217535) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:59.038+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:39:59.039+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:59.039+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:59.044+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:39:59.055+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:59.055+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:39:59.069+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:39:59.069+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:39:59.088+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:40:31.160+0530] {processor.py:186} INFO - Started process (PID=217621) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:31.162+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:40:31.163+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:31.163+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:31.167+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:31.178+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:31.178+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:40:31.190+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:31.190+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:40:31.209+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:40:39.767+0530] {processor.py:186} INFO - Started process (PID=217639) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:39.768+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:40:39.769+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:39.769+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:39.774+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:40:39.787+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:39.786+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:40:39.800+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:40:39.800+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:40:39.822+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.059 seconds
+[2024-09-10T17:41:03.223+0530] {processor.py:186} INFO - Started process (PID=217703) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:03.224+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:41:03.226+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:03.225+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:03.230+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:03.246+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:03.246+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:03.260+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:03.260+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:41:03.279+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.065 seconds
+[2024-09-10T17:41:36.952+0530] {processor.py:186} INFO - Started process (PID=217784) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:36.953+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:41:36.955+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:36.954+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:36.960+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:36.971+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:36.971+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:36.984+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:36.984+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:41:37.003+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.058 seconds
+[2024-09-10T17:41:37.490+0530] {processor.py:186} INFO - Started process (PID=217785) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:37.490+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:41:37.491+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:37.491+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:37.496+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:41:37.507+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:37.507+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:41:37.519+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:41:37.519+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:41:37.536+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.051 seconds
+[2024-09-10T17:42:08.910+0530] {processor.py:186} INFO - Started process (PID=217862) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:08.910+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:42:08.911+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:08.911+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:08.916+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:08.927+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:08.926+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:08.940+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:08.940+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:42:08.957+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:42:11.329+0530] {processor.py:186} INFO - Started process (PID=217875) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:11.330+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:42:11.331+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:11.330+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:11.335+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:11.348+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:11.348+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:11.373+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:11.372+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:42:11.394+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:42:43.363+0530] {processor.py:186} INFO - Started process (PID=217980) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:43.364+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:42:43.365+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:43.365+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:43.370+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:42:43.382+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:43.381+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:42:43.394+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:42:43.394+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:42:43.412+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:43:06.857+0530] {processor.py:186} INFO - Started process (PID=218044) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:06.858+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:43:06.859+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.859+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:06.865+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:06.876+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.876+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:43:06.888+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:06.888+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:43:06.907+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.054 seconds
+[2024-09-10T17:43:40.092+0530] {processor.py:186} INFO - Started process (PID=218130) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:40.094+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:43:40.095+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:40.095+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:40.100+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:43:40.113+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:40.113+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:43:40.131+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:43:40.130+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:43:40.148+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.060 seconds
+[2024-09-10T17:44:06.488+0530] {processor.py:186} INFO - Started process (PID=218207) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:06.489+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:44:06.490+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:06.490+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:06.495+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:06.505+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:06.505+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:06.517+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:06.517+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:44:06.536+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:44:44.051+0530] {processor.py:186} INFO - Started process (PID=218312) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:44.053+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:44:44.054+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:44.053+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:44.058+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:44:44.070+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:44.070+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:44:44.083+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:44:44.083+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:44:44.104+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.058 seconds
+[2024-09-10T17:45:05.405+0530] {processor.py:186} INFO - Started process (PID=218361) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:05.407+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:45:05.409+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:05.408+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:05.413+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:05.429+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:05.429+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:05.443+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:05.443+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:45:05.460+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.062 seconds
+[2024-09-10T17:45:16.094+0530] {processor.py:186} INFO - Started process (PID=218391) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:16.095+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:45:16.096+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:16.095+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:16.101+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:16.113+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:16.113+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:16.126+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:16.126+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:45:16.145+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.056 seconds
+[2024-09-10T17:45:37.928+0530] {processor.py:186} INFO - Started process (PID=218448) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:37.928+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:45:37.929+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:37.929+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:37.934+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:37.945+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:37.945+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:37.957+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:37.957+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:45:37.974+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.053 seconds
+[2024-09-10T17:45:48.346+0530] {processor.py:186} INFO - Started process (PID=218477) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:48.347+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:45:48.348+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:48.348+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:48.353+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:45:48.364+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:48.364+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:45:48.376+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:45:48.376+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:45:48.400+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.060 seconds
+[2024-09-10T17:46:36.489+0530] {processor.py:186} INFO - Started process (PID=218598) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:36.492+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:46:36.493+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:36.493+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:36.500+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:36.514+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:36.513+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:46:36.525+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:36.525+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:46:36.545+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.061 seconds
+[2024-09-10T17:46:52.507+0530] {processor.py:186} INFO - Started process (PID=218637) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:52.508+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:46:52.509+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:52.509+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:52.516+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:46:52.530+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:52.530+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:46:52.547+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:46:52.547+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:46:52.564+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.062 seconds
+[2024-09-10T17:47:38.271+0530] {processor.py:186} INFO - Started process (PID=218785) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:38.278+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:47:38.281+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:38.281+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:38.286+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:38.297+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:38.297+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:47:38.311+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:38.310+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:47:38.332+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.066 seconds
+[2024-09-10T17:47:51.662+0530] {processor.py:186} INFO - Started process (PID=218811) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:51.662+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:47:51.663+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:51.663+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:51.668+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:47:51.680+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:51.680+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:47:51.699+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:47:51.698+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:47:51.716+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.059 seconds
+[2024-09-10T17:48:40.317+0530] {processor.py:186} INFO - Started process (PID=218940) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:40.318+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:48:40.319+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:40.319+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:40.324+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:40.335+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:40.334+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:48:40.347+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:40.347+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:48:40.363+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.050 seconds
+[2024-09-10T17:48:50.190+0530] {processor.py:186} INFO - Started process (PID=218959) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:50.191+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:48:50.192+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:50.191+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:50.196+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:48:50.208+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:50.208+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:48:50.228+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:48:50.228+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:48:50.247+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.064 seconds
+[2024-09-10T17:49:22.536+0530] {processor.py:186} INFO - Started process (PID=219068) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:22.538+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:49:22.539+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:22.539+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:22.543+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:22.558+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:22.557+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:49:22.570+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:22.570+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:49:22.589+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.059 seconds
+[2024-09-10T17:49:39.289+0530] {processor.py:186} INFO - Started process (PID=219108) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:39.291+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:49:39.292+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:39.291+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:39.296+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:49:39.308+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:39.308+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:49:39.320+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:49:39.319+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:49:39.336+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:50:11.729+0530] {processor.py:186} INFO - Started process (PID=219188) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:11.730+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:50:11.731+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:11.731+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:11.735+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:11.746+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:11.746+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:50:11.758+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:11.758+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:50:11.777+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:50:26.891+0530] {processor.py:186} INFO - Started process (PID=219231) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:26.892+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:50:26.893+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:26.893+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:26.898+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:50:26.909+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:26.909+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:50:26.923+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:50:26.922+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:50:26.943+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.057 seconds
+[2024-09-10T17:51:10.314+0530] {processor.py:186} INFO - Started process (PID=219339) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:10.317+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:51:10.318+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:10.318+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:10.324+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:10.336+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:10.335+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:51:10.348+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:10.348+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:51:10.372+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:51:24.881+0530] {processor.py:186} INFO - Started process (PID=219376) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:24.882+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:51:24.883+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:24.882+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:24.887+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:51:24.899+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:24.899+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:51:24.912+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:51:24.912+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:51:24.929+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.052 seconds
+[2024-09-10T17:52:12.840+0530] {processor.py:186} INFO - Started process (PID=219503) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:12.842+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:52:12.845+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:12.844+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:12.851+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:12.863+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:12.862+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:12.875+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:12.874+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:52:12.901+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.066 seconds
+[2024-09-10T17:52:23.575+0530] {processor.py:186} INFO - Started process (PID=219532) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:23.578+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:52:23.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:23.578+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:23.584+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:23.596+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:23.596+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:23.608+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:23.608+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:52:23.627+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.057 seconds
+[2024-09-10T17:52:55.750+0530] {processor.py:186} INFO - Started process (PID=219637) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:55.752+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:52:55.753+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:55.753+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:55.762+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:52:55.777+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:55.777+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:52:55.791+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:52:55.791+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:52:55.815+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:53:11.951+0530] {processor.py:186} INFO - Started process (PID=219680) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:11.959+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:53:11.961+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:11.960+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:11.966+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:11.990+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:11.989+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:53:12.005+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:12.005+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:53:12.028+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.087 seconds
+[2024-09-10T17:53:28.462+0530] {processor.py:186} INFO - Started process (PID=219719) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:28.463+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:53:28.464+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:28.464+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:28.470+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:53:28.484+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:28.484+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:53:28.497+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:53:28.497+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:53:28.518+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.061 seconds
+[2024-09-10T17:54:11.682+0530] {processor.py:186} INFO - Started process (PID=219847) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:11.684+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:54:11.685+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:11.685+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:11.690+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:11.701+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:11.701+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:54:11.712+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:11.712+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:54:11.733+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T17:54:27.554+0530] {processor.py:186} INFO - Started process (PID=219886) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:27.556+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:54:27.557+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:27.557+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:27.562+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:54:27.575+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:27.575+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:54:27.604+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:54:27.603+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:54:27.624+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.076 seconds
+[2024-09-10T17:55:15.701+0530] {processor.py:186} INFO - Started process (PID=220008) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:15.706+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:55:15.708+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:15.708+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:15.715+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:15.726+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:15.726+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:15.738+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:15.738+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:55:15.757+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.067 seconds
+[2024-09-10T17:55:25.574+0530] {processor.py:186} INFO - Started process (PID=220035) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:25.575+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:55:25.577+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:25.577+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:25.583+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:25.596+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:25.596+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:25.609+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:25.609+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:55:25.628+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.059 seconds
+[2024-09-10T17:55:48.382+0530] {processor.py:186} INFO - Started process (PID=220096) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:48.385+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:55:48.386+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:48.385+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:48.394+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:55:48.407+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:48.406+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:55:48.419+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:55:48.419+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:55:48.447+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.069 seconds
+[2024-09-10T17:56:23.286+0530] {processor.py:186} INFO - Started process (PID=220190) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:23.288+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:56:23.289+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:23.288+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:23.295+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:23.318+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:23.318+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:56:23.331+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:23.331+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:56:23.353+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.073 seconds
+[2024-09-10T17:56:50.760+0530] {processor.py:186} INFO - Started process (PID=220258) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:50.763+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:56:50.764+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:50.764+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:50.770+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:56:50.815+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:50.815+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:56:50.831+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:56:50.831+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:56:50.853+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.100 seconds
+[2024-09-10T17:57:23.717+0530] {processor.py:186} INFO - Started process (PID=220340) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:23.721+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:57:23.722+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:23.722+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:23.727+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:23.744+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:23.744+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:23.767+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:23.767+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:57:23.788+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.076 seconds
+[2024-09-10T17:57:53.184+0530] {processor.py:186} INFO - Started process (PID=220442) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:53.193+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:57:53.194+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:53.194+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:53.198+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:53.211+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:53.211+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:53.224+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:53.224+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:57:53.242+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.062 seconds
+[2024-09-10T17:57:55.884+0530] {processor.py:186} INFO - Started process (PID=220455) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:55.885+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:57:55.886+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:55.886+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:55.891+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:57:55.902+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:55.902+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:57:55.915+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:57:55.915+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:57:55.932+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.057 seconds
+[2024-09-10T17:58:52.648+0530] {processor.py:186} INFO - Started process (PID=220591) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:52.657+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:58:52.659+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:52.659+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:52.666+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:52.685+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:52.685+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:58:52.704+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:52.704+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:58:52.723+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.079 seconds
+[2024-09-10T17:58:55.915+0530] {processor.py:186} INFO - Started process (PID=220606) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:55.915+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:58:55.916+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:55.916+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:55.921+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:58:55.934+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:55.934+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:58:55.947+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:58:55.947+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:58:55.971+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.061 seconds
+[2024-09-10T17:59:47.285+0530] {processor.py:186} INFO - Started process (PID=220751) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:47.287+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:59:47.288+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:47.287+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:47.292+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:47.303+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:47.303+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:59:47.315+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:47.315+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:59:47.339+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.060 seconds
+[2024-09-10T17:59:58.168+0530] {processor.py:186} INFO - Started process (PID=220782) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:58.177+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T17:59:58.178+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:58.178+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:58.183+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T17:59:58.196+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:58.195+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T17:59:58.214+0530] {logging_mixin.py:190} INFO - [2024-09-10T17:59:58.213+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T17:59:58.236+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.073 seconds
+[2024-09-10T18:00:19.790+0530] {processor.py:186} INFO - Started process (PID=220839) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:19.792+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:00:19.793+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:19.793+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:19.798+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:19.808+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:19.808+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:00:19.820+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:19.820+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:00:19.838+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T18:00:30.281+0530] {processor.py:186} INFO - Started process (PID=220867) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:30.282+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:00:30.284+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:30.283+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:30.292+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:00:30.308+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:30.308+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:00:30.320+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:00:30.320+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:00:30.338+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.062 seconds
+[2024-09-10T18:01:18.715+0530] {processor.py:186} INFO - Started process (PID=220983) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:18.717+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:01:18.717+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:18.717+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:18.723+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:18.736+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:18.736+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:01:18.748+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:18.748+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:01:18.766+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T18:01:30.137+0530] {processor.py:186} INFO - Started process (PID=221019) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:30.146+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:01:30.147+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:30.147+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:30.152+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:01:30.163+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:30.163+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:01:30.178+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:01:30.177+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:01:30.200+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.068 seconds
+[2024-09-10T18:02:03.419+0530] {processor.py:186} INFO - Started process (PID=221107) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:03.420+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:02:03.421+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:03.421+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:03.427+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:03.440+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:03.440+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:03.453+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:03.453+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:02:03.469+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T18:02:21.791+0530] {processor.py:186} INFO - Started process (PID=221151) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:21.793+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:02:21.794+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:21.794+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:21.800+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:21.822+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:21.821+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:21.833+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:21.833+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:02:21.851+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.072 seconds
+[2024-09-10T18:02:36.241+0530] {processor.py:186} INFO - Started process (PID=221214) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:36.242+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:02:36.244+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:36.243+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:36.251+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:36.263+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:36.262+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:36.284+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:36.284+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:02:36.304+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.068 seconds
+[2024-09-10T18:02:55.552+0530] {processor.py:186} INFO - Started process (PID=221265) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:55.555+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:02:55.556+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:55.555+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:55.560+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:02:55.572+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:55.572+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:02:55.586+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:02:55.586+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:02:55.604+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.056 seconds
+[2024-09-10T18:03:27.788+0530] {processor.py:186} INFO - Started process (PID=221352) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:27.797+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:03:27.798+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.798+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:27.805+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:27.817+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.817+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:27.832+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:27.832+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:03:27.854+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.073 seconds
+[2024-09-10T18:03:39.289+0530] {processor.py:186} INFO - Started process (PID=221382) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:39.290+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:03:39.291+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:39.291+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:39.298+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:03:39.310+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:39.310+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:03:39.324+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:03:39.324+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:03:39.344+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.061 seconds
+[2024-09-10T18:04:00.559+0530] {processor.py:186} INFO - Started process (PID=221451) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:00.560+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:04:00.561+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:00.561+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:00.566+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:00.579+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:00.579+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:04:00.592+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:00.592+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:04:00.732+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.178 seconds
+[2024-09-10T18:04:33.201+0530] {processor.py:186} INFO - Started process (PID=221539) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:33.203+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:04:33.204+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:33.204+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:33.209+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:33.220+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:33.220+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:04:33.232+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:33.232+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:04:33.250+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.054 seconds
+[2024-09-10T18:04:38.263+0530] {processor.py:186} INFO - Started process (PID=221555) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:38.264+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:04:38.265+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:38.265+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:38.270+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:04:38.281+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:38.281+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:04:38.293+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:04:38.293+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:04:38.312+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.055 seconds
+[2024-09-10T18:05:05.266+0530] {processor.py:186} INFO - Started process (PID=221618) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:05.267+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:05:05.269+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:05.268+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:05.274+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:05.288+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:05.288+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:05.301+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:05.301+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:05:05.319+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.058 seconds
+[2024-09-10T18:05:38.499+0530] {processor.py:186} INFO - Started process (PID=221704) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:38.500+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:05:38.502+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:38.501+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:38.507+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:38.521+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:38.520+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:38.534+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:38.534+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:05:38.552+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.058 seconds
+[2024-09-10T18:05:40.796+0530] {processor.py:186} INFO - Started process (PID=221716) to work on /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:40.797+0530] {processor.py:914} INFO - Processing file /home/sst7260/airflow_projects/project1/dags/aaz.py for tasks to queue
+[2024-09-10T18:05:40.798+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:40.798+0530] {dagbag.py:587} INFO - Filling up the DagBag from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:40.806+0530] {processor.py:925} INFO - DAG(s) 'apache_beam_etl_pipeline' retrieved from /home/sst7260/airflow_projects/project1/dags/aaz.py
+[2024-09-10T18:05:40.821+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:40.821+0530] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-10T18:05:40.846+0530] {logging_mixin.py:190} INFO - [2024-09-10T18:05:40.846+0530] {dag.py:4156} INFO - Setting next_dagrun for apache_beam_etl_pipeline to 2024-09-10 00:00:00+00:00, run_after=2024-09-11 00:00:00+00:00
+[2024-09-10T18:05:40.866+0530] {processor.py:208} INFO - Processing /home/sst7260/airflow_projects/project1/dags/aaz.py took 0.074 seconds
